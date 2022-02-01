@@ -1,0 +1,15 @@
+{% extends "layouts/base.html" %} {% block content %}
+<article class="intro">
+    <div>
+        <h1>{{intro.main}}</h1>
+        <h2>{{intro.summary}}</h2>
+    </div>
+
+    <img
+        src="{{ intro.image }}"
+        alt="{{ intro.imageAlt }}"
+        width="500"
+        height="600"
+    />
+</article>
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends "layouts/base.html" %}
+
+{% set pageHeaderTitle = title %}
+
+{% set pageHeaderSummary %}
+{% endset %}
+
+{% block content %}
+  <article>
+    {% include "partials/page-header.html" %}
+    
+    <div class="page-content">
+      {{ content | safe }}
+    </div>
+  </article>
+
+{% endblock %}
