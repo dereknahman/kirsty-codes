@@ -1,0 +1,25 @@
+<header role="banner" class="site-head">
+    <div class="wrapper">
+        <div class="site-head-inner">
+            <a href="/" aria-label="{{ site.name }} - home"> </a>
+            <nav aria-label="Primary">
+                <ul class="nav-list">
+                    {% for item in navigation.items %}
+                    <li>
+                        <a
+                            href="{{ item.url }}"
+                            {{
+                            helpers.getLinkActiveState(item.url,
+                            page.url)
+                            |
+                            safe
+                            }}
+                            >{{ item.text }}</a
+                        >
+                    </li>
+                    {% endfor %}
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
