@@ -1,5 +1,4 @@
 const Image = require('@11ty/eleventy-img');
-const path = require('path');
 
 module.exports = (config) => {
     config.addPassthroughCopy('./src/images/');
