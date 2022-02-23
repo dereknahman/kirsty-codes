@@ -1,7 +1,33 @@
 const Image = require('@11ty/eleventy-img');
+const path = require('path');
+
+async function imageShortcode(src, alt, sizes, pageURL) {
+    const imgPath = pageURL ? pageURL : 'img';
+
+    const metadata = await Image(src, {
+        widths: [300, 600, 900],
+        formats: ['avif', 'jpeg'],
+        urlPath: '/img/',
+        outputDir: 'dist/' + imgPath,
+        filenameFormat: function (id, src, width, format, options) {
+            const extension = path.extname(src);
+            const name = path.basename(src, extension);
+            return `${name}-${width}w.${format}`;
+        }
+    });
+
+    const imageAttributes = {
+        alt,
+        sizes,
+        loading: 'lazy',
+        decoding: 'async'
+    };
+
+    return Image.generateHTML(metadata, imageAttributes);
+}
 
 module.exports = (config) => {
-    config.addPassthroughCopy('./src/images/');
+    config.addPassthroughCopy('./src/img/');
 
     // Returns a collection of blog posts in reverse date order
     config.addCollection('blog', (collection) => {
@@ -11,44 +37,7 @@ module.exports = (config) => {
     // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
     config.setUseGitIgnore(false);
 
-    config.addNunjucksAsyncShortcode('Image', async (src, alt) => {
-        if (!alt) {
-            throw new Error(`Missing \`alt\` on myImage from: ${src}`);
-        }
-
-        let stats = await Image(src, {
-            widths: [320, 640, 960],
-            formats: ['jpeg', 'webp'],
-            urlPath: '/images/',
-            outputDir: './dist/img/'
-        });
-
-        let lowestSrc = stats['jpeg'][0];
-
-        const srcset = Object.keys(stats).reduce(
-            (acc, format) => ({
-                ...acc,
-                [format]: stats[format].reduce(
-                    (_acc, curr) => `${_acc} ${curr.srcset} ,`,
-                    ''
-                )
-            }),
-            {}
-        );
-
-        const source = `<source type="image/webp" srcset="${srcset['webp']}" >`;
-
-        const img = `<img
-          loading="lazy"
-          alt="${alt}"
-          src="${lowestSrc.url}"
-          sizes='(min-width: 1024px) 1024px, 100vw'
-          srcset="${srcset['jpeg']}"
-          width="${lowestSrc.width}"
-          height="${lowestSrc.height}">`;
-
-        return `<div class="image-wrapper"><picture> ${source} ${img} </picture></div>`;
-    });
+    config.addNunjucksAsyncShortcode('image', imageShortcode);
 
     return {
         markdownTemplateEngine: 'njk',

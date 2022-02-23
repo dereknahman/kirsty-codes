@@ -14,7 +14,9 @@
         "@11ty/eleventy": "^1.0.0",
         "concurrently": "^7.0.0",
         "gulp": "^4.0.2",
-        "gulp-imagemin": "^7.1.0"
+        "gulp-imagemin": "^7.1.0",
+        "outdent": "^0.8.0",
+        "path": "^0.12.7"
     },
     "devDependencies": {
         "@11ty/eleventy-img": "^1.0.0"
