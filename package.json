@@ -4,21 +4,17 @@
     "description": "",
     "main": ".eleventy.js",
     "scripts": {
-        "eleventy:serve": "eleventy --serve",
+        "start": "eleventy --serve",
         "eleventy:build": "eleventy",
-        "sass:watch": "sass src/sass:dist/css --watch --update --color",
-        "sass:build": "sass src/sass:dist/css --no-source-map --style=compressed",
         "clean": "rm -rf dist/",
-        "start": "run-p -l clean sass:build sass:watch eleventy:serve",
-        "build": "run-s -l eleventy:build sass:build"
+        "build": "run-s -l eleventy:build"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "dependencies": {
         "@11ty/eleventy": "^1.0.0",
-        "path": "^0.12.7",
-        "sass": "^1.49.8"
+        "path": "^0.12.7"
     },
     "devDependencies": {
         "@11ty/eleventy-img": "^1.0.0",
