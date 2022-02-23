@@ -6,7 +6,7 @@
     "scripts": {
         "start": "npm-run-all sass --parallel watch:*",
         "production": "NODE_ENV=production npx gulp && NODE_ENV=production npx eleventy",
-        "sass": "sass --style=compressed src/scss/critical.scss src/_includes/css/styles.css",
+        "sass": "sass --style=compressed src/scss/styles.scss src/_includes/css/styles.css",
         "watch:eleventy": "eleventy --serve",
         "watch:sass": "npm run sass -- --watch"
     },
