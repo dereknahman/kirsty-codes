@@ -5,7 +5,6 @@
     "main": ".eleventy.js",
     "scripts": {
         "start": "npm-run-all sass --parallel watch:*",
-        "production": "NODE_ENV=production npx gulp && NODE_ENV=production npx eleventy",
         "sass": "sass --style=compressed src/scss/styles.scss src/_includes/css/styles.css",
         "watch:eleventy": "eleventy --serve",
         "watch:sass": "npm run sass -- --watch",
@@ -16,7 +15,6 @@
     "license": "ISC",
     "dependencies": {
         "@11ty/eleventy": "^1.0.0",
-        "concurrently": "^7.0.0",
         "path": "^0.12.7",
         "sass": "^1.49.8"
     },
