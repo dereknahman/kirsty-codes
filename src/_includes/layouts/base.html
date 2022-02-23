@@ -9,7 +9,7 @@
         <title>{{ title }}</title>
 
         <style>
-            {% include "scss/critical.scss" %}
+            {% include "css/critical.css" %}
         </style>
 
         {# Add facility for pages to delare an array of critical styles #} {% if
@@ -22,7 +22,9 @@
         <link
             rel="stylesheet"
             media="print"
+            {#
             href="/fonts/fonts.css?{{ assetHash }}"
+            #}
             onload="this.media='all'"
         />
 
