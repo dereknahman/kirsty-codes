@@ -1,16 +1,16 @@
 <header role="banner" class="site-head">
     <div class="wrapper-nav">
-        <div class="site-head-inner">
-            <a href="/" aria-label="{{ site.name }} - home"> </a>
-            <nav aria-label="Primary">
+        <nav aria-label="Primary">
+            <div class="site-head-inner">
                 <ul class="nav-list">
+                    <a href="/" aria-label="{{ site.name }} - home"> </a>
                     {% for item in navigation.items %}
                     <li>
                         <a href="{{ item.url }}">{{ item.text }}</a>
                     </li>
                     {% endfor %}
                 </ul>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </div>
 </header>

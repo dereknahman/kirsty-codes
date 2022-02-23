@@ -86,3 +86,12 @@ select {
 /* Reset ends */
 
 /* Nav bar begins */
+
+nav {
+    li {
+        display: inline-block;
+        a {
+            text-decoration: none;
+        }
+    }
+}
