@@ -4,11 +4,13 @@
     "description": "",
     "main": ".eleventy.js",
     "scripts": {
-        "start": "npm-run-all sass --parallel watch:*",
-        "sass": "sass --style=compressed src/sass/styles.scss src/_includes/css/styles.css",
-        "watch:eleventy": "eleventy --serve",
-        "watch:sass": "npm run sass -- --watch",
-        "build": "npm run sass && eleventy"
+        "eleventy:serve": "eleventy --serve",
+        "eleventy:build": "eleventy",
+        "sass:watch": "sass src/sass:dist/css --watch --update --color",
+        "sass:build": "sass src/sass:dist/css --no-source-map --style=compressed",
+        "clean": "rm -rf dist/",
+        "start": "run-p -l clean sass:build sass:watch eleventy:serve",
+        "build": "run-s -l eleventy:build sass:build"
     },
     "keywords": [],
     "author": "",
