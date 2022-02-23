@@ -28,7 +28,9 @@ async function imageShortcode(src, alt, sizes, pageURL) {
 
 module.exports = (config) => {
     config.addPassthroughCopy('./src/img/');
+    config.addPassthroughCopy('./src/css/');
 
+    config.addWatchTarget('./src/css/');
     // Returns a collection of blog posts in reverse date order
     config.addCollection('blog', (collection) => {
         return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
