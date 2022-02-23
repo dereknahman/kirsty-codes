@@ -5,11 +5,6 @@
         <p>{{intro.summary}}</p>
     </div>
 
-    <img
-        src="{{ intro.image }}"
-        alt="{{ intro.imageAlt }}"
-        width="500"
-        height="600"
-    />
+    {% image "src/img/lobster.jpeg", "lobster", page.url %}
 </article>
 {% endblock %}
