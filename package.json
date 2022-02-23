@@ -4,7 +4,7 @@
     "description": "",
     "main": ".eleventy.js",
     "scripts": {
-        "start": "npx gulp && concurrently \"npx gulp watch\" \"npx eleventy --serve\"",
+        "start": "npx eleventy --serve",
         "production": "NODE_ENV=production npx gulp && NODE_ENV=production npx eleventy"
     },
     "keywords": [],
@@ -13,8 +13,6 @@
     "dependencies": {
         "@11ty/eleventy": "^1.0.0",
         "concurrently": "^7.0.0",
-        "gulp": "^4.0.2",
-        "gulp-imagemin": "^7.1.0",
         "path": "^0.12.7",
         "sass": "^1.49.8"
     },
