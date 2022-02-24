@@ -1,4 +1,8 @@
 .nav-list li {
     display: inline-block;
-    background-color: blue;
+}
+
+.nav-item,
+.site-head-title {
+    text-decoration: none;
 }
