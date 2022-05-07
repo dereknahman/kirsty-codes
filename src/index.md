@@ -1,5 +1,5 @@
 ---
-title: 'Blog posts'
+title: 'Home'
 layout: 'layouts/home.html'
 metaDesc: 'This is a blog about making things with code and fabric.'
 intro:
