@@ -73,4 +73,9 @@ header {
         padding: 0;
         min-width: 100%;
     }
+
+    .nav-links-wrapper {
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
