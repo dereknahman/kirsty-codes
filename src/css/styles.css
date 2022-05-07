@@ -52,6 +52,9 @@ header {
 
 .main {
     padding: 5rem;
+    position: fixed;
+    overflow-y: scroll;
+    max-height: 100%;
 }
 
 .intro-wrapper {
