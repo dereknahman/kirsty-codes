@@ -14,4 +14,4 @@ Having spent the vast majority of the pandemic trying to pull off a pretty drast
 
 [I was on a podcast](https://aquestionofcode.com/68-are-bootcamps-worth-doing-kirsty-simmonds/) with the charming lads from A Question of Code, admittedly quite a while ago now. This episode is about my experience of changing career via a bootcamp.
 
-[I wrote an article for Smashing Magazine on how to structure your independent learning](https://www.smashingmagazine.com/2021/02/building-personal-learning-curriculum/). I was talking about my experience of learning new things as a dev, but the advice I give can be applied to pretty much anything to do with structuring your studies.
+[I wrote an article for Smashing Magazine on how to structure your independent learning](https://www.smashingmagazine.com/2021/02/building-personal-learning-curriculum/). I was talking about my experience of learning new things as a dev, but the advice I give can be applied to pretty much anything.
