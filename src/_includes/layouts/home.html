@@ -1,6 +1,8 @@
-{% extends "layouts/base.html" %} {% block content %}
-<article class="intro">
-    <h1>Slipped Stitch</h1>
-    <h2>This is where I write about code, craft and other things</h2>
+{% extends "layouts/base.html" %} {% set pageHeaderTitle = title %} {% set
+pageHeaderSummary = content %} {% set postListItems = pagination.items %} {%
+block content %}
+<article>
+    {% include "partials/page-header.html" %} {% include
+    "partials/post-list.html" %}
 </article>
 {% endblock %}

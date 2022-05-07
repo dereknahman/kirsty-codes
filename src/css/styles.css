@@ -1,3 +1,10 @@
+body {
+    margin: 0;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3rem;
+}
+
 .page-layout {
     display: flex;
     min-height: 100vh;
@@ -6,16 +13,30 @@
 .page-content {
     display: flex;
     flex-direction: column;
+    /* min-height: 100%;
+    justify-content: space-between; */
 }
 
 /* nav sidebar */
 
-.side-nav {
+header {
     display: flex;
     flex-direction: column;
+    background-color: #b200fd;
+    width: 10rem;
+    padding: 3rem;
 }
 
 .nav-links-wrapper {
-    text-decoration: none;
     list-style: none;
+}
+
+.nav-links-text {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.main {
+    padding: 3rem;
 }

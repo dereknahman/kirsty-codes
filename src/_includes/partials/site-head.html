@@ -1,9 +1,11 @@
-<header class="side-nav">
+<header>
     <nav>
         <ul class="nav-links-wrapper">
             {% for item in navigation.items %}
             <li>
-                <a href="{{ item.url }}">{{ item.text }}</a>
+                <a href="{{ item.url }}" class="nav-links-text"
+                    >{{ item.text }}</a
+                >
             </li>
             {% endfor %}
         </ul>
