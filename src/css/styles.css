@@ -58,3 +58,18 @@ header {
 .intro-wrapper {
     margin-bottom: 4rem;
 }
+
+@media (max-width: 780px) {
+    .page-layout {
+        flex-direction: column;
+    }
+
+    main {
+        padding: 2rem;
+    }
+
+    header {
+        width: 100%;
+        padding: 0;
+    }
+}
