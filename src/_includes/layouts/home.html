@@ -1,8 +1,9 @@
-{% extends "layouts/base.html" %} {% set pageHeaderTitle = title %} {% set
-pageHeaderSummary = content %} {% set postListItems = pagination.items %} {%
-block content %}
-<article>
-    {% include "partials/page-header.html" %} {% include
-    "partials/post-list.html" %}
-</article>
+{% extends "layouts/base.html" %} {% block content %}
+<section class="intro-wrapper">
+    <div class="intro">
+        <h1>{{intro.myName}}</h1>
+        <p>{{intro.summary}}</p>
+    </div>
+    {{ content | safe }}
+</section>
 {% endblock %}

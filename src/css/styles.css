@@ -3,6 +3,8 @@ body {
     font-weight: 300;
     font-family: 'Inter', sans-serif;
     font-size: 1.3rem;
+    line-height: 1.4;
+    overflow: hidden;
 }
 
 .page-layout {
@@ -17,18 +19,18 @@ body {
     justify-content: space-between; */
 }
 
-/* nav sidebar */
-
 header {
     display: flex;
     flex-direction: column;
     background-color: #b200fd;
-    width: 10rem;
-    padding: 3rem;
+    width: 10%;
+    text-align: center;
+    padding: 80px;
 }
 
 .nav-links-wrapper {
     list-style: none;
+    padding: 0;
 }
 
 .nav-links-text {
@@ -38,5 +40,10 @@ header {
 }
 
 .main {
-    padding: 3rem;
+    padding: 5rem;
+    overflow: auto;
+}
+
+.intro-wrapper {
+    margin-bottom: 4rem;
 }
