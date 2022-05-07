@@ -8,6 +8,10 @@
 {% set siteTitle = site.name %}
 {% set currentUrl = site.url + page.url %}
 
+{% if not socialImage %} 
+  {% set socialImage = site.url + '/images/meta/social-share.png' %} 
+{% endif %}
+
 {# If the page’s Front Matter has specific metaTitle and/or metaDesc items, switch 
   them into the mix. #}
 {% if metaTitle %}
@@ -40,3 +44,5 @@
   <meta name="twitter:description" content="{{ metaDesc }}" />
   <meta property="og:description" content="{{ metaDesc }}" />
 {% endif %}
+
+<link rel="icon" href="/img/meta/favicon.ico" type="image" />
