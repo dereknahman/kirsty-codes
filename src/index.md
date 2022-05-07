@@ -8,6 +8,7 @@ intro:
         "Hello, I'm Kirsty. This is a blog I'm throwing together to teach myself
         proper HTML, CSS and accessibility. It's very rudimentary for now but
         I'm working on it!"
+socialImage: img/me.png
 ---
 
 This website is built using 11ty, and I'm using Nunjucks as a templating engine. Other than that it's just plain old HTML and CSS.
