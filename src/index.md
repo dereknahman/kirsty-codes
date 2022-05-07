@@ -4,6 +4,5 @@ layout: 'layouts/home.html'
 socialImage: 'src/img/lobster.jpeg'
 metaDesc: 'This is a blog about making things with code and fabric.'
 intro:
-    main: 'Wey'
     summary: 'This is a blog about making things with code and fabric.'
 ---

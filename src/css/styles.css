@@ -1,8 +1,21 @@
-.nav-list li {
-    display: inline-block;
+.page-layout {
+    display: flex;
+    min-height: 100vh;
 }
 
-.nav-item,
-.site-head-title {
+.page-content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* nav sidebar */
+
+.side-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-links-wrapper {
     text-decoration: none;
+    list-style: none;
 }
