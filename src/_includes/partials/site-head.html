@@ -1,20 +1,13 @@
-<header role="banner" class="site-head">
-    <a href="/" aria-label="{{ site.name }} - home" class="site-head-title"
-        >{{site.name}}</a
-    >
-    <div class="wrapper-nav">
-        <nav aria-label="Primary">
-            <div class="site-head-inner">
-                <ul class="nav-list">
-                    {% for item in navigation.items %}
-                    <li class="nav-items">
-                        <a href="{{ item.url }}" class="nav-item"
-                            >{{ item.text }}</a
-                        >
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
-        </nav>
-    </div>
+<header>
+    <nav>
+        <ul class="nav-links-wrapper">
+            {% for item in navigation.items %}
+            <li>
+                <a href="{{ item.url }}" class="nav-links-text"
+                    >{{ item.text }}</a
+                >
+            </li>
+            {% endfor %}
+        </ul>
+    </nav>
 </header>

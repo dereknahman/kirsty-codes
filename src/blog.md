@@ -1,9 +1,9 @@
 ---
 title: 'Blog'
-layout: 'layouts/feed.html'
+layout: 'layouts/blog.html'
 pagination:
     data: collections.blog
     size: 10
 ---
 
-Blah blah bla
+Occasionally I like to write a post to either cement a new concept that's been eluding me. Eventually they'll be here. These are just tests posts for now.
