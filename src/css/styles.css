@@ -33,6 +33,7 @@ header {
     width: 7%;
     text-align: center;
     padding: 80px;
+    max-width: max-content;
 }
 
 .nav-links-wrapper {
@@ -52,6 +53,7 @@ header {
 
 .main {
     padding: 5rem;
+    min-width: fit-content;
 }
 
 .intro-wrapper {
@@ -68,7 +70,7 @@ header {
     }
 
     header {
-        width: 100%;
         padding: 0;
+        min-width: 100%;
     }
 }
