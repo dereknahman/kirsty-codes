@@ -65,7 +65,7 @@ header {
         flex-direction: column;
     }
 
-    main {
+    .main {
         padding: 2rem;
     }
 
