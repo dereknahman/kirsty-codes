@@ -1,13 +1,10 @@
 ---
-title: 'Home'
-layout: 'layouts/home.html'
-metaDesc: 'This is a blog about making things with code and fabric.'
+title: "Home"
+layout: "layouts/home.html"
+metaDesc: "This is a blog about making things with code and fabric."
 intro:
-    myName: 'Kirsty Simmonds'
-    summary:
-        "Hello, I'm Kirsty. This is a blog I'm throwing together to teach myself
-        proper HTML, CSS and accessibility. It's very rudimentary for now but
-        I'm working on it!"
+    myName: "Hi! I'm Kirsty"
+    welcome: "I'm a Software Engineer at the Financial Times. Outside of that I knit *a lot*, and build pointless little things on the web to entertain myself."
 ---
 
 This website is built using 11ty, and I'm using Nunjucks as a templating engine. Other than that it's just plain old HTML and CSS.

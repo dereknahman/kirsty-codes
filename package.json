@@ -1,7 +1,7 @@
 {
     "name": "kirsty-codes",
     "version": "1.0.0",
-    "description": "",
+    "description": "A personal blog, updated sporadically",
     "main": ".eleventy.js",
     "scripts": {
         "start": "eleventy --serve",
