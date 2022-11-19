@@ -31,13 +31,13 @@ module.exports = (config) => {
     config.addPassthroughCopy("./src/css/");
 
     // enable hot reloading with markdown files
-    config.addWatchTarget("posts");
+    config.addWatchTarget("blog");
 
     config.addWatchTarget("./src/css/*");
 
     // Returns a collection of blog posts in reverse date order
     config.addCollection("blog", (collection) => {
-        return [...collection.getFilteredByGlob("./src/posts/*.md")].reverse();
+        return [...collection.getFilteredByGlob("./src/blog/*.md")].reverse();
     });
 
     // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
