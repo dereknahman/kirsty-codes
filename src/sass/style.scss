@@ -7,14 +7,38 @@ body {
     max-width: 35em;
     margin-left: auto;
     margin-right: auto;
+    padding: 3rem;
 }
 
-html {
-    padding: 3rem;
+.page-layout {
+    min-height: 100vh;
 }
 
 main {
     margin-top: 4rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: calc(0.7em + 0.33vw);
+    margin-top: 4em;
+}
+
+.footer-inner {
+    gap: 20px;
+    display: flex;
+    align-items: baseline;
+
+    i {
+        font-size: 20px;
+    }
+}
+
+.cat-icon {
+    transform: rotateY(180deg);
 }
 
 a {
