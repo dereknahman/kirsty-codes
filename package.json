@@ -10,7 +10,7 @@
         "watch:sass": "sass --watch src/sass:dist/css",
         "watch:eleventy": "eleventy --serve",
         "clean": "rm -rf dist/",
-        "build": "npm-run-all build*"
+        "build": "run-s -l eleventy:build"
     },
     "keywords": [],
     "author": "",

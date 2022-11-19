@@ -28,10 +28,26 @@ a:hover {
     text-decoration: underline;
 }
 
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Miriam Libre", sans-serif;
+}
+
 .nav-links-wrapper {
     list-style: none;
     padding: 0;
     display: flex;
     flex-direction: row;
     gap: 20px;
+}
+
+@media (max-width: 780px) {
+    .nav-links-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
