@@ -33,7 +33,7 @@ module.exports = (config) => {
     // enable hot reloading with markdown files
     config.addWatchTarget("blog");
 
-    config.addWatchTarget("./src/css/*");
+    config.addWatchTarget("./src/sass/*");
 
     // Returns a collection of blog posts in reverse date order
     config.addCollection("blog", (collection) => {
