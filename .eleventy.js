@@ -1,5 +1,6 @@
 const Image = require("@11ty/eleventy-img");
 const path = require("path");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 async function imageShortcode(src, alt, sizes, pageURL) {
     const imgPath = pageURL ? pageURL : "img";
@@ -30,20 +31,16 @@ module.exports = (config) => {
     config.addPassthroughCopy("./src/img/");
     config.addPassthroughCopy("./src/css/");
 
+    // add rss plugin
+    config.addPlugin(pluginRss);
+
     // enable hot reloading
-    config.addWatchTarget("blog");
+    config.addWatchTarget("./src/posts/");
     config.addWatchTarget("./src/sass/");
 
-    // Returns a collection of blog posts in reverse date order
-    config.addCollection("blog", (collection) => {
-        return [...collection.getFilteredByGlob("./src/blog/*.md")].reverse();
-    });
-
-    // Returns a collection of weeknotes in reverse date order
-    config.addCollection("weeknotes", (collection) => {
-        return [
-            ...collection.getFilteredByGlob("./src/weeknotes/*.md")
-        ].reverse();
+    // Returns a collection of blog posts in chronological order
+    config.addCollection("posts", (collection) => {
+        return [...collection.getFilteredByGlob("./src/posts/*.md")];
     });
 
     // Tell 11ty to use the .eleventyignore and ignore our .gitignore file

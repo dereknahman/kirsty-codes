@@ -1,7 +1,7 @@
 ---
-title: 'Blog'
-layout: 'layouts/blog.html'
+title: "Blog"
+layout: "layouts/blog.html"
 pagination:
-    data: collections.blog
+    data: collections.posts
     size: 10
 ---
