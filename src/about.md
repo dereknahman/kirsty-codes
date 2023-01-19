@@ -1,7 +1,7 @@
 ---
 title: "About"
 layout: "layouts/about.html"
-permalink: "/about/index.html"
+permalink: "about/index.html"
 ---
 
 I started my career as a full-stack developer in 2019 via a bootcamp while living in my favourite city, Berlin. Now I work at the [Financial Times](https://www.ft.com/) in London, where I'm from, having spent some time working at a vet tech start-up and, after that, an agency that works primarily with third-sector clients.

@@ -1,7 +1,7 @@
 ---
 title: "Contact me"
 layout: "layouts/contact.html"
-permalink: "/contact/index.html"
+permalink: "contact/index.html"
 ---
 
 You can find me at [kirstysimmonds@icloud.com](mailto:kirstysimmonds@icloud.com), or on [Mastodon](https://mastodon.social/@kirsty_s).

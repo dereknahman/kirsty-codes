@@ -6,5 +6,5 @@ pagination:
     size: 1
     alias: tag
     filter: ["all", "generalChatter", "work", "accessibility", "rss"]
-permalink: "/tag/{{ tag | slug }}/"
+permalink: "tag/{{ tag | slug }}/"
 ---
