@@ -8,7 +8,7 @@ I started my career as a full-stack developer in 2019 via a bootcamp while livin
 
 My biggest interests in the web development space are HTML, CSS, JS and accessibility. This website exists because I wanted a space to tinker with all those things outside of work.
 
-When I'm not in front of a computer I like to indulge my love of nature, building things, (trying not to buy) records and astanga yoga.
+When I'm not in front of a computer I like to indulge my love of nature, building things, (trying not to buy) records and astanga yoga. In 2023 I'd like to finally manage a headstand without sending myself to A&E.
 
 ## Things I've done
 

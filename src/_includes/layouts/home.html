@@ -1,15 +1,10 @@
 {% extends "layouts/base.html" %} {% block content %}
 <section class="intro-wrapper">
-    <div class="intro">
         <h1>{{intro.myName}}</h1>
 
             {% image "./src/img/me.jpeg", "intro-img", "a selfie of me with my coat pulled up over my nose, so you can only see my very short hair and eyes", "(min-width: 30em)
             50vw, 100vw" %}
 
-            <div class"intro-welcome">
-                <p>{{intro.welcome}}</p>
-            </div>
-    </div>
     {{ content | safe }}
 </section>
 {% endblock %}
