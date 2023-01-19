@@ -4,6 +4,7 @@
 {% set pageHeaderSummary = content %}
 {% set postListItems = pagination.items %}
 
+
 {# If this is a tag, grab those items instead as one large collection #}
 {% if tag %}
   {% set postListItems = collections[tag] %}

@@ -4,7 +4,7 @@ layout: "layouts/home.html"
 metaDesc: "This is a blog about making things with code and fabric."
 intro:
     myName: "Hi! I'm Kirsty"
-    welcome: "I'm a Software Engineer at the Financial Times. Outside of that I knit *a lot*, and build pointless little things on the web to entertain myself."
+    welcome: "I'm a Software Engineer at the Financial Times and I love to build things with code and wool. I'm also a beginner at messing around with Adafruit and seeing if I can make anything cool — no joy yet!"
 ---
 
 This website is built using 11ty, and I'm using Nunjucks as a templating engine. Other than that it's just plain old HTML and CSS.
