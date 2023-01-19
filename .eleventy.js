@@ -6,7 +6,7 @@ async function imageShortcode(src, cls, alt, sizes, pageURL) {
     const imgPath = pageURL ? pageURL : "img";
 
     const metadata = await Image(src, {
-        widths: [300],
+        widths: [300, 400, 600],
         formats: ["avif", "jpeg"],
         urlPath: "/img/",
         outputDir: "dist/" + imgPath,

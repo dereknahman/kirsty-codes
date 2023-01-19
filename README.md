@@ -4,4 +4,4 @@ I'm building this website to teach myself proper semantic markup, CSS, accessibi
 
 I've used 11ty, with Nunjucks as templating engine. Other than that, it's just plain old HTML and CSS for the moment.
 
-It's decidedly unfancy, and that's how I'll be keeping it. There are plenty of things I've yet to add in, so please treat it as a work in progress for now.
+Things I'll be looking at in the near future: keyboard navigation and skip links, image optimisation and best practices, performance and writing my first blog.
