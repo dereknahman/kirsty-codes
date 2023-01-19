@@ -44,8 +44,8 @@ module.exports = (config) => {
     config.addWatchTarget("./src/sass/");
 
     // Returns a collection of blog posts in chronological order
-    config.addCollection("posts", (collection) => {
-        return [...collection.getFilteredByGlob("./src/posts/*.md")];
+    config.addCollection("blog", (collection) => {
+        return [...collection.getFilteredByGlob("./src/posts/*.md")].reverse();
     });
 
     // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
