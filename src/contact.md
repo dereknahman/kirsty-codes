@@ -4,6 +4,6 @@ layout: "layouts/contact.html"
 permalink: "/contact/index.html"
 ---
 
-You can find me at [kirstysimmonds@icloud.com](mailto:kirstysimmonds@icloud.com), or on [Twitter](https://twitter.com/keinegurke_).
+You can find me at [kirstysimmonds@icloud.com](mailto:kirstysimmonds@icloud.com), or on [Mastodon](https://mastodon.social/@kirsty_s).
 
-I tend to deactivate Twitter regularly, so that link may be broken sometimes.
+I post knitting projects that I complete on my [Ravelry](https://www.ravelry.com/people/torahwilcox) profile, so say hello over there if you're into fibre arts too!
