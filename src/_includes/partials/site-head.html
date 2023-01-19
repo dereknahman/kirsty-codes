@@ -3,7 +3,15 @@
         <ul class="nav-links-wrapper">
             {% for item in navigation.items %}
             <li>
-                <a href="{{ item.url }}" class="nav-links-text"
+                <a
+                    href="{{ item.url }}"
+                    {{
+                    helpers.getLinkActiveState(item.url,
+                    page.url)
+                    |
+                    safe
+                    }}
+                    class="nav-links-text"
                     >{{ item.text }}</a
                 >
             </li>

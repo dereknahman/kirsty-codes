@@ -31,16 +31,21 @@ module.exports = (config) => {
     config.addPassthroughCopy("./src/img/");
     config.addPassthroughCopy("./src/css/");
 
-    // add rss plugin
     config.addPlugin(pluginRss);
 
+    config.addPlugin(pluginRss, {
+        posthtmlRenderOptions: {
+            closingSingleTag: "default" // opt-out of <img/>-style XHTML single tags
+        }
+    });
+
     // enable hot reloading
-    config.addWatchTarget("./src/posts/");
+    config.addWatchTarget("./src/blog/");
     config.addWatchTarget("./src/sass/");
 
     // Returns a collection of blog posts in chronological order
-    config.addCollection("posts", (collection) => {
-        return [...collection.getFilteredByGlob("./src/posts/*.md")];
+    config.addCollection("blog", (collection) => {
+        return [...collection.getFilteredByGlob("./src/blog/*.md")].reverse();
     });
 
     // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
