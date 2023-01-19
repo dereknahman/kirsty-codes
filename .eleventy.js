@@ -31,8 +31,13 @@ module.exports = (config) => {
     config.addPassthroughCopy("./src/img/");
     config.addPassthroughCopy("./src/css/");
 
-    // add rss plugin
     config.addPlugin(pluginRss);
+
+    config.addPlugin(pluginRss, {
+        posthtmlRenderOptions: {
+            closingSingleTag: "default" // opt-out of <img/>-style XHTML single tags
+        }
+    });
 
     // enable hot reloading
     config.addWatchTarget("./src/posts/");
