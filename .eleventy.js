@@ -40,12 +40,12 @@ module.exports = (config) => {
     });
 
     // enable hot reloading
-    config.addWatchTarget("./src/posts/");
+    config.addWatchTarget("./src/blog/");
     config.addWatchTarget("./src/sass/");
 
     // Returns a collection of blog posts in chronological order
     config.addCollection("blog", (collection) => {
-        return [...collection.getFilteredByGlob("./src/posts/*.md")].reverse();
+        return [...collection.getFilteredByGlob("./src/blog/*.md")].reverse();
     });
 
     // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
