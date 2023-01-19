@@ -16,8 +16,8 @@ body {
 
 .intro-img {
     float: left;
-    margin-right: 20px;
-    margin-bottom: 5px;
+    margin-right: 5%;
+    margin-bottom: 2%;
 }
 
 .intro-welcome {
@@ -87,5 +87,8 @@ h4 {
 
     .intro-img {
         margin-bottom: 30px;
+        width: calc(100% - 10px);
+        height: auto;
+        float: none;
     }
 }
