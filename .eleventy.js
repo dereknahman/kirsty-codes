@@ -2,7 +2,7 @@ const Image = require("@11ty/eleventy-img");
 const path = require("path");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
-async function imageShortcode(src, alt, sizes, pageURL) {
+async function imageShortcode(src, cls, alt, sizes, pageURL) {
     const imgPath = pageURL ? pageURL : "img";
 
     const metadata = await Image(src, {
@@ -18,13 +18,16 @@ async function imageShortcode(src, alt, sizes, pageURL) {
     });
 
     const imageAttributes = {
+        class: cls,
         alt,
         sizes,
         loading: "lazy",
         decoding: "async"
     };
 
-    return Image.generateHTML(metadata, imageAttributes);
+    return Image.generateHTML(metadata, imageAttributes, {
+        whitespaceMode: "inline"
+    });
 }
 
 module.exports = (config) => {
