@@ -1,15 +1,16 @@
-<div class="post-list-wrapper" id="post-list">
-    <div class="wrapper-inner">
-        <div>
-            <ol class="post-list">
-                {% for item in postListItems %}
-                <li class="post-list-item">
-                    <a href="{{ item.url }}" class="post-list-link"
-                        >{{ item.data.title }}</a
-                    >
-                </li>
-                {% endfor %}
-            </ol>
-        </div>
-    </div>
+<div class="post-list-wrapper">
+    <ol class="post-list">
+        {% for item in postListItems %}
+
+        <li class="post-list-item">
+            <span>-></span>
+            <a href="{{ item.url }}" class="post-list-link"
+                >{{ item.data.title }}</a
+            >
+            <span class="post-list-date-string"
+                >{{item.date.toDateString()}}</span
+            >
+        </li>
+        {% endfor %}
+    </ol>
 </div>

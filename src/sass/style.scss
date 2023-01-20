@@ -14,6 +14,19 @@ body {
     min-height: 100vh;
 }
 
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+.post-list-date-string {
+    font-size: calc(0.5em + 0.5vw);
+}
+
+.title-header {
+    margin: 0;
+}
+
 .intro-img {
     float: left;
     margin-right: 5%;

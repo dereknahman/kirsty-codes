@@ -1,8 +1,10 @@
 {% extends "layouts/base.html" %} {% set pageHeaderTitle = title %} {% set
 pageHeaderSummary %} {% endset %} {% block content %}
 <section>
-    {% include "partials/page-header.html" %}
-
+    <div class="post-header">
+        {% include "partials/page-header.html" %}
+        <span class="post-list-date-string">{{page.date.toDateString()}}</span>
+    </div>
     <div class="page-content">{{ content | safe }}</div>
 </section>
 
