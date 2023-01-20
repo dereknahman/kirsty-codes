@@ -10,6 +10,10 @@ body {
     padding: 3rem;
 }
 
+* {
+    color: black;
+}
+
 .page-layout {
     min-height: 100vh;
 }
@@ -19,8 +23,39 @@ ol {
     padding: 0;
 }
 
+.tags-list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+}
+
+.post-view-tag {
+    color: #fff;
+    background-color: #b200fd;
+    margin-right: 10px;
+    border-radius: 7px;
+    padding: 2px 5px;
+    font-size: calc(0.5em + 0.7vw);
+    font-weight: 400;
+}
+
+.post-view-tag:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
 .post-list-date-string {
     font-size: calc(0.5em + 0.5vw);
+}
+
+.post-list-item > .post-list-tag {
+    background-color: #b200fd;
+    color: #fff;
+    border-radius: 7px;
+    font-size: calc(0.5em + 0.4vw);
+    font-weight: 350;
+    padding: 2px 4px;
 }
 
 .title-header {
@@ -65,7 +100,6 @@ footer {
 }
 
 a {
-    color: black;
     font-weight: 500;
     text-decoration: none;
 }

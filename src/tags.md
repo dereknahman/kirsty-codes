@@ -5,15 +5,6 @@ pagination:
     data: collections
     size: 1
     alias: tag
-    filter:
-        [
-            "all",
-            "random",
-            "work",
-            "accessibility",
-            "rss",
-            "monthnotes",
-            "myMakes"
-        ]
+    filter: ["all", "random", "work", "accessibility", "rss", "monthnotes"]
 permalink: "tag/{{ tag | slug }}/"
 ---
