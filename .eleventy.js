@@ -1,6 +1,7 @@
 const Image = require("@11ty/eleventy-img");
 const path = require("path");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 async function imageShortcode(src, cls, alt, sizes, pageURL) {
     const imgPath = pageURL ? pageURL : "img";
@@ -41,6 +42,8 @@ module.exports = (config) => {
             closingSingleTag: "default" // opt-out of <img/>-style XHTML single tags
         }
     });
+
+    config.addPlugin(syntaxHighlight);
 
     // enable hot reloading
     config.addWatchTarget("./src/blog/");

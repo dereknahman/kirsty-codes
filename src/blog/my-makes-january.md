@@ -6,3 +6,7 @@ tags: ["My Makes", "Lol"]
 ---
 
 This will be a blog post about what I've made this past month.
+
+```js
+const status = "Under construction";
+```
