@@ -2,7 +2,6 @@ const Image = require("@11ty/eleventy-img");
 const path = require("path");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 
 async function imageShortcode(src, cls, alt, sizes, pageURL) {
     const imgPath = pageURL ? pageURL : "img";
@@ -34,7 +33,6 @@ async function imageShortcode(src, cls, alt, sizes, pageURL) {
 
 module.exports = (config) => {
     config.addPassthroughCopy("./src/img/");
-    config.addPassthroughCopy("./src/css/");
 
     config.addPlugin(pluginRss);
 
@@ -45,9 +43,6 @@ module.exports = (config) => {
     });
 
     config.addPlugin(syntaxHighlight);
-
-    // If you have other `addPlugin` calls, it’s important that UpgradeHelper is added last.
-    config.addPlugin(UpgradeHelper);
 
     // enable hot reloading
     config.addWatchTarget("./src/blog/");
