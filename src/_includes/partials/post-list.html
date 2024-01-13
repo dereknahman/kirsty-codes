@@ -11,13 +11,16 @@
                 >{{item.date.toDateString()}}</span
             >
 
-            {% for tag in item.data.tags %}
+            <br />
+            <div class="post-list-tag-wrapper">
+                {% for tag in item.data.tags %}
 
-            <a class="post-list-tag" href="/tag/{{ tag | slug }}/"
-                >{{ tag | title }}</a
-            >
+                <a class="post-list-tag" href="/tag/{{ tag | slug }}/"
+                    >{{ tag | title }}</a
+                >
 
-            {% endfor %}
+                {% endfor %}
+            </div>
         </li>
         {% endfor %}
     </ol>

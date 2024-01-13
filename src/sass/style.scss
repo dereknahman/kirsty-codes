@@ -41,7 +41,7 @@ ol {
     margin-right: 10px;
     border-radius: 7px;
     padding: 2px 5px;
-    font-size: calc(0.5em + 0.4vw);
+    font-size: calc(0.5em + 0.2vw);
     font-weight: 350;
 }
 
@@ -54,13 +54,17 @@ ol {
     font-size: calc(0.5em + 0.5vw);
 }
 
-.post-list-item > .post-list-tag {
+.post-list-tag {
     background-color: #22f8ce;
     border-radius: 7px;
-    font-size: calc(0.5em + 0.4vw);
+    font-size: calc(0.5em + 0.2vw);
     font-weight: 350;
     padding: 2px 4px;
     border: 3px solid black;
+}
+
+.post-list-tag-wrapper {
+    margin-left: 25px;
 }
 
 .title-header {
