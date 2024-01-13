@@ -3,7 +3,11 @@ pagination.href.next or pagination.href.previous %}
 <div class="wrapper">
     <nav class="pagination__inner" aria-label="Pagination links">
         {% if pagination.href.previous %}
-        <a href="{{ pagination.href.previous }}" data-direction="backwards">
+        <a
+            href="{{ pagination.href.previous }}"
+            data-direction="backwards"
+            class="prev-page"
+        >
             <span
                 >{{ paginationPrevText if paginationPrevText else 'Previous'
                 }}</span
