@@ -9,6 +9,10 @@
             "url": "/blog/"
         },
         {
+            "text": "Links",
+            "url": "/links/"
+        },
+        {
             "text": "About",
             "url": "/about/"
         }
