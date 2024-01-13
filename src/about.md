@@ -4,13 +4,9 @@ layout: "layouts/about.html"
 permalink: "about/index.html"
 ---
 
-I started my career as a full-stack developer in 2019 via a bootcamp while living in my favourite city, Berlin. Now I work at the [Financial Times](https://www.ft.com/) in London, where I'm from, having spent some time working at a vet tech start-up and, after that, an agency that works primarily with third-sector clients.
+I started my career as a full-stack developer in 2019 via a bootcamp while living in my favourite city, Berlin. Now I work at the [Financial Times](https://www.ft.com/) in London, where I'm from. Before that I had countless other jobs doing stuff that had nothing to do with programming.
 
-My biggest interests in the web development space are HTML, CSS, JS and accessibility. This website exists because I wanted a space to tinker with all those things outside of work.
-
-When I'm not in front of a computer I like to indulge my love of nature, building things, (trying not to buy) records and astanga yoga. In 2023 I'd like to finally manage a headstand without sending myself to A&E.
-
-## Things I've done
+## Stuff I've done
 
 [I was on a podcast](https://aquestionofcode.com/68-are-bootcamps-worth-doing-kirsty-simmonds/) with the charming lads from A Question of Code, admittedly quite a while ago now. This episode is about my experience of changing career via a bootcamp.
 
