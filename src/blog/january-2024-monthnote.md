@@ -1,6 +1,6 @@
 ---
-title: 'My makes: January wah wah wah'
-date: '2024-01-30'
+title: 'A flurry of projects'
+date: '2024-01-31'
 layout: 'layouts/post.html'
 tags: ['Monthnotes']
 ---
