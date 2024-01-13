@@ -28,12 +28,11 @@
             href="{{ site.url }}feed.xml"
         />
     </head>
-    <body>
-        <div class="page-layout">
-            {% include "partials/site-head.html" %}
-            <div class="page-content">
-                <main class="main">{% block content %}{% endblock %}</main>
-            </div>
+    <body class="page-layout">
+        <header>{% include "partials/site-head.html" %}</header>
+
+        <div class="page-content">
+            <main class="main">{% block content %}{% endblock %}</main>
         </div>
 
         <footer role="contentinfo">{% include "partials/footer.html" %}</footer>

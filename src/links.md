@@ -4,4 +4,4 @@ layout: 'layouts/links.html'
 permalink: 'links/index.html'
 ---
 
-Links
+Links go here
