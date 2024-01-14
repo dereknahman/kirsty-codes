@@ -1,6 +1,7 @@
 ---
 title: "Home"
 layout: "layouts/home.html"
+socialImage: "./img/social-share.png"
 metaDesc: "This is a blog about making things with code and fabric."
 intro:
     myName: "Kirsty's Weblog"
