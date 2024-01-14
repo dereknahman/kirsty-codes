@@ -1,8 +1,8 @@
 ---
 title: "Home"
 layout: "layouts/home.html"
-socialImage: "./img/meta/social-share.png"
-metaDesc: "This is a blog about making things with code and fabric."
+socialImage: "../img/meta/social-share.png"
+metaDesc: "This is a blog about making things with code and fabric. Here's the homepage."
 intro:
     myName: "Kirsty's Weblog"
 ---
