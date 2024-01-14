@@ -4,7 +4,7 @@ layout: "layouts/links.html"
 permalink: "links/index.html"
 ---
 
-### Personal websites I love
+### Personal websites
 
 -   [My partner Jonny's website](https://jpelham.co.uk/) is where he records the beautiful book covers he designs for a living. He used to work in-house but now he's a freelance cover designer. He created his own website too!
 
