@@ -47,7 +47,7 @@ module.exports = (config) => {
 
     // Returns a collection of blog posts in chronological order
     config.addCollection("blog", (collection) => {
-        return [...collection.getFilteredByGlob("./src/blog/*.md")].reverse()
+        return [...collection.getFilteredByGlob("./src/blog/*.md")]
     })
 
     // Tell 11ty to use the .eleventyignore and ignore our .gitignore file

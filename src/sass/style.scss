@@ -34,7 +34,8 @@ h2,
 }
 
 ol {
-    list-style-type: none;
+    // list-style-type: none;
+    // list-style-type:;
     padding: 0;
 }
 
@@ -105,15 +106,13 @@ a:hover {
     margin-left: 23px;
 }
 
+.post-list-item {
+    margin-top: 7px;
+}
+
 .title-header {
     margin: 0;
 }
-
-// .intro-img {
-//     float: left;
-//     margin-right: 5%;
-//     margin-bottom: 2%;
-// }
 
 .main-wrapper {
     margin-bottom: 4rem;
@@ -157,12 +156,13 @@ footer {
 }
 
 .post-list-wrapper li::marker {
-    content: "-> ";
-    color: #04a584;
+    // content: "-> ";
+    color: black;
 }
 
 .link-page-wrapper li::marker {
-    content: "-> ";
+    // content: "-> ";
+    list-style-type: disc;
     color: #04a584;
 }
 

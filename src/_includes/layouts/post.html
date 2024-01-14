@@ -1,5 +1,7 @@
 {% extends "layouts/base.html" %} {% set pageHeaderTitle = title %} {% set
 pageHeaderSummary %} {% if tags %}
+<link rel="webmention" href="https://webmention.io/kirsty.website/webmention" />
+
 <span class="post-list-date-string">{{page.date.toDateString()}}</span>
 
 <ul class="tags-list" aria-describedby="tags-desc">
