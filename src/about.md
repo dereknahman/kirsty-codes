@@ -14,6 +14,8 @@ permalink: "extras/index.html"
 
 This website is built using [11ty](https://www.11ty.dev/), a very convenient and powerful static site generator, and I'm using [Nunjucks](https://mozilla.github.io/nunjucks/templating.html) as a templating engine. Other than that it's just HTML, CSS and a touch of JavaScript.
 
+I learned how to use 11ty using [Eleventy From Scratch](https://learneleventyfromscratch.com/) when it was brand new. I think the content is a little out of date in some places, but it's still worth a look for getting a sense of how to organise things.
+
 The fonts I've chosen, [Inter](https://fonts.google.com/specimen/Inter) and [Bungee](https://fonts.google.com/specimen/Bungee), are available on [Google Fonts](https://fonts.google.com/).
 
 I deploy using [Netlify](https://www.netlify.com/), which is somehow free and handles HTTPS for me. I trigger deploys by pushing my code to a [GitHub](https://github.com/) repo.
