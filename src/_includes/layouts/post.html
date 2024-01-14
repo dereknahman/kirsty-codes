@@ -4,10 +4,8 @@ pageHeaderSummary %} {% if tags %}
 
 <ul class="tags-list" aria-describedby="tags-desc">
     {% for tag in tags %}
-    <li>
-        <a href="/tag/{{ tag | slug }}/" class="post-view-tag"
-            >{{ tag | title }}</a
-        >
+    <li id="post-tag">
+        <a href="/tag/{{ tag | slug }}/" class="post-tag">{{ tag | title }}</a>
     </li>
     {% endfor %}
 </ul>

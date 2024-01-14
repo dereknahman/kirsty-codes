@@ -1,9 +1,8 @@
 <div class="post-list-wrapper">
-    <ol class="post-list">
+    <ol>
         {% for item in postListItems %}
 
         <li class="post-list-item">
-            <span>-></span>
             <a href="{{ item.url }}" class="post-list-link"
                 >{{ item.data.title }}</a
             >
@@ -12,10 +11,10 @@
             >
 
             <br />
-            <div class="post-list-tag-wrapper">
+            <div>
                 {% for tag in item.data.tags %}
 
-                <a class="post-list-tag" href="/tag/{{ tag | slug }}/"
+                <a class="post-tag" href="/tag/{{ tag | slug }}/"
                     >{{ tag | title }}</a
                 >
 

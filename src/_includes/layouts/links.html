@@ -1,4 +1,6 @@
 {% extends "layouts/base.html" %} {% set pageHeaderTitle = title %} {% set
 pageHeaderSummary = content %} {% block content %}
-<section>{% include "partials/page-header.html" %}</section>
+<section class="link-page-wrapper">
+    {% include "partials/page-header.html" %}
+</section>
 {% endblock %}
