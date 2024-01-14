@@ -11,7 +11,7 @@
         "watch:eleventy": "eleventy --serve",
         "clean": "rm -rf dist/",
         "build": "run-s -l build:eleventy",
-        "format": "prettier --write '**/*.{js,css,html}'"
+        "format": "prettier --write '**/*.{js,css,html,md}'"
     },
     "keywords": [],
     "author": "",

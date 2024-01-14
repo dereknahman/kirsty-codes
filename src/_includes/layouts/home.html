@@ -1,4 +1,6 @@
-{% extends "layouts/base.html" %} {% set pageHeaderTitle = title %} {% set
-pageHeaderSummary = content %} {% block content %}
-<section>{% include "partials/page-header.html" %}</section>
+{% extends "layouts/base.html" %} {% set pageHeaderTitle = intro.myName %} {%
+set pageHeaderSummary = content %} {% block content %}
+<section>
+    {% include "partials/page-header.html" %} {{ content | safe }}
+</section>
 {% endblock %}

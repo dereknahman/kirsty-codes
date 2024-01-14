@@ -8,7 +8,7 @@ module.exports = {
      * @returns {String} The attributes or empty
      */
     getLinkActiveState(itemUrl, pageUrl) {
-        let response = ''
+        let response = ""
 
         if (itemUrl === pageUrl) {
             response = ' aria-current="page"'
