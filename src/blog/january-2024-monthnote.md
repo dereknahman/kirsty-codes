@@ -5,4 +5,10 @@ layout: 'layouts/post.html'
 tags: ['Monthnotes']
 ---
 
-This will be a blog post about what I've made this past month.
+### Life
+
+### Work
+
+### Listening
+
+### Reading
