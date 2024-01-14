@@ -38,6 +38,42 @@ ol {
     padding: 0;
 }
 
+a {
+    font-weight: 500;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.nav-links-wrapper {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.nav-link-item {
+    background-color: #22f8ce;
+    padding: 5px 10px;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 3px black;
+}
+
+.nav-link-item:hover {
+    background-color: #8000ff;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-link-item:active {
+    transform: translateY(5px) translateX(5px);
+}
+
 .tags-list {
     display: flex;
     flex-direction: row;
@@ -120,38 +156,12 @@ footer {
     align-items: baseline;
 
     i {
-        font-size: 20px;
+        font-size: 25px;
     }
 }
 
 .cat-icon {
     transform: rotateY(180deg);
-}
-
-a {
-    font-weight: 500;
-    text-decoration: none;
-}
-
-a:hover {
-    color: black;
-    text-decoration: underline;
-}
-
-.nav-links-wrapper {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-}
-
-.nav-link-item {
-    background-color: #22f8ce;
-    padding: 5px 10px;
-    border: 3px solid black;
-    border-radius: 5px;
-    box-shadow: 3px 3px black;
 }
 
 .prev-page {
@@ -167,7 +177,7 @@ a:hover {
         align-items: center;
     }
 
-    .nav-link-item {
+    .nav-link-inner {
         width: 70%;
         display: flex;
         justify-content: center;
