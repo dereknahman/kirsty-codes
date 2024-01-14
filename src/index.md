@@ -1,7 +1,7 @@
 ---
 title: "Home"
 layout: "layouts/home.html"
-socialImage: "https://www.instagram.com/p/CX55cA2oV6-/"
+socialImage: "src/img/me.jpeg"
 metaDesc: "This is a blog about making things with code and fabric. Here's the homepage."
 intro:
     myName: "Kirsty's Weblog"
