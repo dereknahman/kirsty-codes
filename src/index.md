@@ -6,6 +6,10 @@ intro:
     myName: "Kirsty's Weblog"
 ---
 
-I'm a Software Engineer in the Internal Products department at the [Financial Times](https://www.ft.com/). I build tools for journalists and many other types of internal staff members so that they can do their jobs with greater ease and efficiency.
+I'm Kirsty Simmonds, a Software Engineer in the Internal Products department at the [Financial Times](https://www.ft.com/), currently seconding in the Cyber Security team. I've primarily spent my time at the FT building tools for editorial staff. Before that I had lots of jobs, none of which had anything to do with programming.
 
-This website is built using [11ty](https://www.11ty.dev/), and I'm using [Nunjucks](https://mozilla.github.io/nunjucks/templating.html) as a templating engine. Other than that it's just plain old HTML and CSS.
+### About this site
+
+This website is built using [11ty](https://www.11ty.dev/), a very convenient and powerful static site generator, and I'm using [Nunjucks](https://mozilla.github.io/nunjucks/templating.html) as a templating engine. Other than that it's just HTML, CSS and a touch of JavaScript.
+
+I deploy using [Netlify](https://www.netlify.com/), which is somehow free and handles HTTPS for me. I trigger deploys by pushing my code to [GitHub](https://github.com/).
