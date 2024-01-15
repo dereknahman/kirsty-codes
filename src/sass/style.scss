@@ -40,8 +40,6 @@ h2,
 }
 
 ol {
-    // list-style-type: none;
-    // list-style-type:;
     padding: 0;
 }
 
@@ -71,7 +69,7 @@ a:hover {
 }
 
 .nav-link-item:hover {
-    background-color: var(--highlight-color);
+    background-color: var(--highlight);
     color: white;
     cursor: pointer;
     text-decoration: none;
