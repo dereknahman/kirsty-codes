@@ -34,8 +34,10 @@ permalink: "links/index.html"
 
 -   [You can count me among the great number of freaks who watch accounts of massive human and system failure with attendent life losses to relax in the evening](https://www.youtube.com/@MentourPilot).
 
-### Blogs
+### Arts, craft and interest wesbites
 
 -   I check in with knitwear designer [Ella Gordon's blog](https://ellagordondesigns.co.uk/) whenever I feel like looking at beautiful Shetland Fair Isle, which is pretty often these days. As well as designing beautiful colourwork garments and accessories, Ella also has an expansive collection of vintage Shetland knitwear which she talks about on her blog and her [Instagram](https://www.instagram.com/ellagordondesigns/).
 
 -   This is the website of a favourite architect of mine, [John Outram](http://www.johnoutram.com/). I grew up near the famous pumping station he designed on the Isle of Dogs and loved it from very early childhood. He is a true eccentric. I don't know of a living architect who writes about their own buildings the way he does. Read [his post about the pumping station I just mentioned](http://www.johnoutram.com/projectsmenu.html) to see what I mean.
+
+-   I went to a [Richard McVetis](https://www.richardmcvetis.co.uk/) embroidery class a year or so ago and really enjoyed just stitching away on a camera with a bunch of strangers for a couple of hours. My creation wasn't quite up to his standard but I loved [couching](https://createwhimsy.com/projects/couching-stitch-for-lovely-lines/) and could do it all day long, neck tendons permitting. [His Instragram feed](https://www.instagram.com/richardmcvetis/) is inspiring and makes me want to dig into finer detailed needlework than my retinas can probably stand.
