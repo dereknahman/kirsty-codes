@@ -32,7 +32,7 @@ permalink: "links/index.html"
 
 -   [Hurfyd](https://www.youtube.com/@hurfyd) posts good electronic music. He made [a tool to download Bandcamp purchases in batches](https://github.com/hyphmongo/batchcamp) that my partner uses and enjoys.
 
--   [You can count me among the great number of freaks who watch accounts of massive human and system failure with attendent life losses to relax in the evening](https://www.youtube.com/@MentourPilot).
+-   [You can count me among the freaks who watch accounts of massive human and system failure with attendent life losses to relax in the evening](https://www.youtube.com/@MentourPilot).
 
 ### Arts, craft and interest wesbites
 
