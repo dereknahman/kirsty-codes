@@ -36,7 +36,7 @@ permalink: "links/index.html"
 
 ### Arts, craft and interest wesbites
 
--   I check in with knitwear designer [Ella Gordon's blog](https://ellagordondesigns.co.uk/) whenever I feel like looking at beautiful Shetland Fair Isle, which is pretty often these days. As well as designing beautiful colourwork garments and accessories, Ella also has an expansive collection of vintage Shetland knitwear which she talks about on her blog and her [Instagram](https://www.instagram.com/ellagordondesigns/).
+-   I check in with knitwear designer [Ella Gordon's blog](https://ellagordondesigns.co.uk/) whenever I feel like looking at beautiful Shetland Fair Isle, which is pretty often these days. As well as designing beautiful colourwork garments and accessories, Ella also has an expansive collection of vintage Shetland knitwear which she talks about on her blog and her [Instagram](https://www.instagram.com/ellagordondesigns/) feed.
 
 -   This is the website of a favourite architect of mine, [John Outram](http://www.johnoutram.com/). I grew up near the famous pumping station he designed on the Isle of Dogs and loved it from very early childhood. He is a true eccentric. I don't know of a living architect who writes about their own buildings the way he does. Read [his post about the pumping station I just mentioned](http://www.johnoutram.com/projectsmenu.html) to see what I mean.
 
