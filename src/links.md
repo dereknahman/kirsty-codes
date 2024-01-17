@@ -16,6 +16,10 @@ permalink: "links/index.html"
 
 -   Jan and I used to live in the same city but never met, though I would really like us to one of these days. [Jan's site](https://writing.jan.io/) is about the Berlin tech scene, his work as an engineer, and things about what he thinks and where he's been.
 
+### Developer stuff
+
+-   I recently knocked together a wedding website for myself using [Every Layout](https://every-layout.dev/). It's essentially a collection of popular layouts that you can design using CSS but _without_ expensive `@media` breakpoints. It's by [Heydon Pickering](https://heydonworks.com/) and [Andy Bell](https://andy-bell.co.uk/), who have done a lot for the web. Andy's now-out-of-date [Learn Eleventy from Scratch](https://learneleventyfromscratch.com/) course was the primary tool I used to learn how to build this site.
+
 ### YouTube channels
 
 -   My friend Martha once recommended [Dave Hurwitz's YouTube channel](https://www.youtube.com/@DavesClassicalGuide) to me over coffee and I've been a firm fan ever since. He is just the funniest, most scathing, most knowledgeable person in classical music I can think of.
@@ -27,6 +31,8 @@ permalink: "links/index.html"
 -   [Axia](https://www.youtube.com/@axiaasd2184/featured) is a group of diagnosticians who specialise in neurodiversity. I found out about [Sarah Hendrickx](https://www.youtube.com/watch?v=yKzWbDPisNk&t=3633s) after stumbling across their channel, and her talks about her life as a late-diagnosed autistic woman helped me towards my own diagnosis at 33 last year. I'd recommend Axia's content to anyone who wants to learn more about neurodiversity, but especially to people who suspect they may be autistic. Their approach is genuinely person-first and they are very respectful with how they talk about and to autistic people.
 
 -   [Hurfyd](https://www.youtube.com/@hurfyd) posts good electronic music. He made [a tool to download Bandcamp purchases in batches](https://github.com/hyphmongo/batchcamp) that my partner uses and enjoys.
+
+-   [You can count me among the great number of freaks who watch accounts of massive human and system failure with attendent life losses to relax in the evening](https://www.youtube.com/@MentourPilot).
 
 ### Blogs
 
