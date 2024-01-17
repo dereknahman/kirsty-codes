@@ -12,7 +12,7 @@ permalink: "links/index.html"
 
 -   My pal Nick cares about accessibility on the web a _lot_, and he shares a few of his thoughts on the subject on [his blog](https://nickcolley.co.uk/). He is also the reason [this digital remaster of UK government](https://design-of-forms.online/) forms exists on the web. He is _also_ the person who helped me to make the links on this site more descriptive so they are more useful to screenreader users. Thanks, Nick!
 
--   [Kara's website](https://ghost.computer/) is the exact colour of cherry drops. She actually makes synths! I don't understand anything about them but it is massively impressive and you should visit if you like music, because she makes that too.
+-   [Kara's website](https://ghost.computer/) is the exact colour of cherry drops. She actually makes synths! You should visit if you like music, because she makes that too.
 
 -   Jan and I used to live in the same city but never met, though I would really like us to one of these days. [Jan's site](https://writing.jan.io/) is about the Berlin tech scene, his work as an engineer, and things about what he thinks and where he's been.
 
