@@ -6,15 +6,15 @@
         },
         {
             "text": "Blog",
-            "url": "/blog/"
+            "url": "/blog"
         },
         {
             "text": "Links",
-            "url": "/links/"
+            "url": "/links"
         },
         {
             "text": "Extras",
-            "url": "/extras/"
+            "url": "/extras"
         }
     ]
 }
