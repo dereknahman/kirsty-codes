@@ -8,6 +8,8 @@ permalink: "links/index.html"
 
 -   [My partner Jonny's website](https://jpelham.co.uk/) is where he records the beautiful book covers he designs for a living. He used to work in-house but now he's a freelance cover designer (mandatory plug: hire him!). He created his own website too, but scoffs when I call him a developer.
 
+-   Leaf is one of those people you feel proud and lucky to know. We used to work on the same team and I miss them _a lot_. [Their website is here](https://leaf.is).
+
 -   Sophie is one of the reasons my little site exists. After seeing [her incredible talk at FFConf 2022](https://www.youtube.com/watch?v=vGYm9VdfJ8s) I felt so inspired to create my own space on the web, far from the poisonous reach of arsehole multibillionaires, but it took me a while to get going and actually do it. [Her website is a joyous place](https://localghost.dev/).
 
 -   My pal Nick cares about accessibility on the web a _lot_, and he shares a few of his thoughts on the subject on [his blog](https://nickcolley.co.uk/). He is also the reason [this digital remaster of UK government](https://design-of-forms.online/) forms exists on the web. He is _also_ the person who helped me to make the links on this site more descriptive so they are more useful to screenreader users. Thanks, Nick!
