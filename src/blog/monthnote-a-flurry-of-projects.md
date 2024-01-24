@@ -4,7 +4,7 @@ date: "2024-01-24"
 layout: "layouts/post.html"
 tags: ["Monthnotes"]
 templateEngineOverride: njk,md
-socialImage: "./src/img/donkey.jpeg"
+socialImage: "./src/img/meta/donkey.jpeg"
 ---
 
 Hello friends! Nice to have you here.
