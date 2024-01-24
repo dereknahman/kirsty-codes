@@ -1,7 +1,7 @@
 ---
 title: "Home"
 layout: "layouts/home.html"
-metaDesc: "This is a blog about making things with code and fabric. This is the homepage."
+metaDesc: "This is a blog about making things with code and fabric."
 intro:
     myGreeting: "Welcome to Kirsty's Weblog"
 ---
