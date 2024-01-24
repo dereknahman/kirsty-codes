@@ -40,7 +40,9 @@
     name="twitter:image:alt"
     content="A tiny knitted bear I made who represents {{ site.name }}"
 />
-{% endif %} {% if metaDesc %}
+{% endif %}
+
+{% if metaDesc %}
 <meta name="description" content="{{ metaDesc }}" />
 <meta name="twitter:description" content="{{ metaDesc }}" />
 <meta property="og:description" content="{{ metaDesc }}" />
