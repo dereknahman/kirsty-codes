@@ -14,4 +14,4 @@ My hands are _extremely_ busy and I'm always making something, usually several t
 
 I have a [Ravelry](https://www.ravelry.com/people/torahwilcox) profile where I log my knitting projects and bookmark patterns I'm interested in making. Feel free to add me as a friend. You will need a profile to see mine, but it's free to sign up. If that doesn't suit you then no bother. I'll be talking about what I make on my blog too.
 
-Thanks for stopping by on my weblog <3.
+Thanks for stopping by <3.
