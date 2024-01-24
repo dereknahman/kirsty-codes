@@ -6,7 +6,7 @@ tags: ["Monthnotes"]
 templateEngineOverride: njk,md
 ---
 
-Hello friends, nice to have you here.
+Hello friends! Nice to have you here.
 
 ### Work
 
