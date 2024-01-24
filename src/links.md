@@ -8,7 +8,7 @@ permalink: "links/index.html"
 
 -   [My partner Jonny's website](https://jpelham.co.uk/) is where he records the beautiful book covers he designs for a living. He used to work in-house but now he's a freelance cover designer (mandatory plug: hire him!). He created his own website too, but scoffs when I call him a developer.
 
--   Leaf is one of those people you feel proud and lucky to know. We used to work on the same team and I miss them _a lot_. [Their website is here](https://leaf.is).
+-   Leaf is one of those people you feel proud and lucky to know. We used to work on the same team and I miss them _a lot_. [Their website is here](https://www.leaf.is/).
 
 -   Sophie is one of the reasons my little site exists. After seeing [her incredible talk at FFConf 2022](https://www.youtube.com/watch?v=vGYm9VdfJ8s) I felt so inspired to create my own space on the web, far from the poisonous reach of arsehole multibillionaires, but it took me a while to get going and actually do it. [Her website is a joyous place](https://localghost.dev/).
 
