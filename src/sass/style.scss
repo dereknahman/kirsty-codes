@@ -16,7 +16,7 @@
         --hover-highlight: black;
         --post-tag-color: #d26157;
         --main-color: #1b1a29;
-        --text-color: #8460d7;
+        --text-color: #62ceb1;
         --bullet-point-color: #8460d7;
         --hover-highlight-text: #d26157;
         --link-color: #d26157;
@@ -137,33 +137,36 @@ a:hover {
 }
 
 .post-tag {
-    background-color: var(--post-tag-color);
-    padding: 2px 4px;
-    border: 3px solid var(--border-color);
     margin-right: 10px;
-    border-radius: 7px;
+    border: 1px solid;
     font-size: calc(0.5em + 0.2vw);
     font-weight: 350;
+    border-radius: 2px;
+    background-color: var(--post-tag-color);
+    padding: 2px;
+}
+
+.post-list-date-string-container {
+    font-size: calc(0.5em + 0.3vw);
+    margin: 0;
+    margin-left: 16px;
+    margin-top: 7px;
 }
 
 .post-view-tag:hover {
     text-decoration: underline;
-    color: black;
-}
-
-.post-list-date-string {
-    font-size: calc(0.5em + 0.4vw);
 }
 
 .post-list-wrapper {
+    display: flex;
     margin-left: 10px;
 }
 
 .post-list-item {
     margin-top: 7px;
 
-    .post-list-date-string {
-        margin-left: 5px;
+    .post-tag {
+        margin-left: 15px;
     }
 }
 

@@ -6,20 +6,19 @@
             <a href="{{ item.url }}" class="post-list-link"
                 >{{ item.data.title }}</a
             >
-            <span class="post-list-date-string"
-                >{{item.date.toDateString()}}</span
+
+            {% for tag in item.data.tags %}
+
+            <a class="post-tag" href="/tag/{{ tag | slug }}/"
+                >{{ tag | title }}</a
             >
 
+            {% endfor %}
+
             <br />
-            <div>
-                {% for tag in item.data.tags %}
-
-                <a class="post-tag" href="/tag/{{ tag | slug }}/"
-                    >{{ tag | title }}</a
-                >
-
-                {% endfor %}
-            </div>
+            <span class="post-list-date-string-container"
+                >{{item.date.toDateString()}}</span
+            >
         </li>
         {% endfor %}
     </ol>
