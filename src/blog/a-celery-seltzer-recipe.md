@@ -1,6 +1,6 @@
 ---
 title: "A Celery Seltzer Recipe"
-date: "2024-01-28"
+date: "2024-01-25"
 layout: "layouts/post.html"
 tags: ["Recipe"]
 ---
