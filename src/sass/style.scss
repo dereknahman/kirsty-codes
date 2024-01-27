@@ -125,8 +125,9 @@ a:hover {
 }
 
 #theme-btn {
-    width: 43px;
-    height: 37px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
 
 #theme-btn:active {
@@ -231,11 +232,7 @@ footer {
     }
 
     .nav-link-list-item {
-        width: inherit;
-    }
-
-    #theme-btn {
-        width: inherit;
+        width: 60%;
     }
 
     .nav-link {
