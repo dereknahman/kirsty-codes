@@ -43,7 +43,7 @@ body {
     max-width: 40em;
     margin-left: auto;
     margin-right: auto;
-    padding: 3rem;
+    padding: 2rem;
     background-color: var(--background-color);
     display: flex;
     flex-direction: column;
@@ -126,9 +126,7 @@ a:hover {
 }
 
 #theme-btn {
-    position: absolute;
-    top: 20px;
-    right: 20px;
+    margin-left: auto;
 }
 
 #theme-btn:active {
@@ -224,19 +222,22 @@ footer {
     color: var(--bullet-point-color);
 }
 
-@media (max-width: 478px) {
+@media (max-width: 522px) {
     .nav-links-wrapper {
         display: flex;
         flex-wrap: wrap;
-        margin-top: 3rem;
     }
 
     .nav-link-list-item {
-        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #theme-btn {
+        margin: 0;
     }
 
     body {
-        padding: 1rem;
+        padding: 2rem;
     }
 }
 
