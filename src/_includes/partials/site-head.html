@@ -1,17 +1,19 @@
 <nav>
     <ul class="nav-links-wrapper">
         {% for item in navigation.items %}
-        <a
-            href="{{ item.url }}"
-            {{
-            helpers.getLinkActiveState(item.url,
-            page.url)
-            |
-            safe
-            }}
-            class="nav-link-item"
-            >{{ item.text }}</a
-        >
+        <li class="nav-link-list-item">
+            <a
+                href="{{ item.url }}"
+                {{
+                helpers.getLinkActiveState(item.url,
+                page.url)
+                |
+                safe
+                }}
+                class="nav-link"
+                >{{ item.text }}</a
+            >
+        </li>
         {% endfor %}
     </ul>
 </nav>
