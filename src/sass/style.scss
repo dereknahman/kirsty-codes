@@ -213,16 +213,19 @@ footer {
     color: var(--bullet-point-color);
 }
 
-@media (max-width: 480px) {
+@media (max-width: 493px) {
     .nav-links-wrapper {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
+        width: 100%;
     }
 
-    .nav-link-item {
-        width: 70%;
+    .nav-link-list-item {
+        width: inherit;
+    }
+
+    .nav-link {
         display: flex;
         justify-content: center;
     }
