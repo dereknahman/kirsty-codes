@@ -1,6 +1,6 @@
 ---
 title: "Essential knitting kit, a tour"
-date: "2024-01-25"
+date: "2024-03-01"
 layout: "layouts/post.html"
 tags: ["Knitting"]
 ---
