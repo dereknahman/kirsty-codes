@@ -31,7 +31,7 @@ I did cast on my wedding project. A cursory Google search tells me that our wedd
 
 I listened to two excellent podcast episodes this month. [This episode of You're Wrong About on the shoe bomber](https://open.spotify.com/episode/6QVGwSUmBu0WRCxTH6reLm?si=ad839c3db86c4b97) is the first I'll mention. I was too young to grasp all the intricacies of what was going on at the time but I do remember seeing him in the paper. The story behind the bomber himself is desperately sad.
 
-[This episode of Bad Gays on Ahebi Ugbabe](https://open.spotify.com/episode/6k2DFqIXE6oWRy1WHhzwN3?si=7de684133df94803) was a fascinating story that brought in sex, gender, politics and power in early 19thC Nigeria, a place I know shamefully little about.
+[This episode of Bad Gays on Ahebi Ugbabe](https://open.spotify.com/episode/6k2DFqIXE6oWRy1WHhzwN3?si=7de684133df94803) was a fascinating story that discussed sex, gender, politics and power in early 19thC Nigeria, a place I know shamefully little about.
 
 ### Reading
 
