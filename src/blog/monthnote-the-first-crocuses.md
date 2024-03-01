@@ -35,4 +35,6 @@ I listened to two excellent podcast episodes this month. [This episode of You're
 
 ### Reading
 
-Patrick Radeen Keefe, author of Empire of Pain and Say Nothing (strong recommend for both), [wrote about Zac Brettler's disapperance for the New Yorker](https://www.newyorker.com/magazine/2024/02/12/a-teens-fatal-plunge-into-the-london-underworld). I am glad I read it, though it left a bit of a hole in my chest. I did not read any novels this month and I want to change this in March. Chat to you then.
+Patrick Radeen Keefe, author of Empire of Pain and Say Nothing (strong recommend for both), [wrote about Zac Brettler's disapperance for the New Yorker](https://www.newyorker.com/magazine/2024/02/12/a-teens-fatal-plunge-into-the-london-underworld). I am glad I read it, though it left a bit of a hole in my chest. I did not read any novels this month and I want to change this in March.
+
+Chat to you then.
