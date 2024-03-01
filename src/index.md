@@ -6,7 +6,7 @@ intro:
     myGreeting: "Welcome to Kirsty's Weblog"
 ---
 
-I'm Kirsty Simmonds, a Software Engineer at the [Financial Times](https://www.ft.com/). I live in London, where I was born and did most of my growing up. I started this site so I could have a space online that's entirely my own.
+I'm Kirsty, a Software Engineer at the [Financial Times](https://www.ft.com/). I live in London, where I was born and did most of my growing up. I started this site so I could have a space online that's entirely my own.
 
 I usually work in the FT's Internal Products department where I help to make tools for editorial staff, but I'm seconding with the Cyber Security team until November 2024. Prior to becoming a dev in 2019 (with the help of a bootcamp) I had countless other jobs, none of which had anything to do with programming.
 
