@@ -265,6 +265,7 @@ img {
 .webmention-comment-content {
     margin-top: 5px;
     width: 100%;
+    margin-left: 20px;
 }
 
 .webmention-avatar-container {
@@ -293,4 +294,8 @@ img {
 .webmention-date {
     font-size: calc(0.7em + 0.2vw);
     font-weight: bold;
+}
+
+.webmention-content {
+    font-size: calc(0.7em + 0.3vw);
 }
