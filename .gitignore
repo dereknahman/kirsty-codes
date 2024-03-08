@@ -8,7 +8,12 @@ Thumbs.db
 .sass-cache
 .env
 .cache
+_cache/
 
 # Node modules and output
+**/node_modules/**
 node_modules
 dist
+
+# Local Netlify folder
+.netlify

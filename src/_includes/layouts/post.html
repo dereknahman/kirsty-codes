@@ -1,6 +1,7 @@
 {% extends "layouts/base.html" %} {% set pageHeaderTitle = title %} {% set
 pageHeaderSummary %} {% if tags %}
 <link rel="webmention" href="https://webmention.io/kirsty.website/webmention" />
+<link rel="pingback" href="https://webmention.io/kirsty.website/xmlrpc" />
 
 <span class="post-list-date-string">{{page.date.toDateString()}}</span>
 
@@ -17,4 +18,4 @@ pageHeaderSummary %} {% if tags %}
     <div>{{ content | safe }}</div>
 </section>
 
-{% endblock %}
+{% include "webmentions.html" %} {% endblock %}
