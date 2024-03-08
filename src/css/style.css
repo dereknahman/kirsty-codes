@@ -251,6 +251,8 @@ img {
     height: auto;
 }
 
+/* webmentions */
+
 .webmention-photo {
     width: 3rem;
     border-radius: 10%;
