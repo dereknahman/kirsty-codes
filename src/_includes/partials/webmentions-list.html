@@ -38,13 +38,13 @@ webmentions.likes.length + webmentions.reposts.length %}
                             alt="author avatar"
                         />
                         {% else %} {% endif %}
-                        <span class="webmention-name"
-                            >{{ webmention.author.name }}</span
-                        >
                     </a>
                     {% if webmention.published %}
                 </div>
                 <div class="webmention-comment-content">
+                    <span class="webmention-name"
+                        >{{ webmention.author.name }}</span
+                    >
                     <time
                         class="webmention-date"
                         datetime="{{ webmention.published }}"

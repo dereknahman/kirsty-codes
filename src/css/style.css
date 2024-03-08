@@ -253,6 +253,12 @@ img {
 
 /* webmentions */
 
+.webmentions-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .webmention-photo {
     width: 3rem;
     border-radius: 10%;
@@ -260,24 +266,20 @@ img {
 
 .webmention-comment-container {
     display: flex;
+    align-items: center;
 }
 
 .webmention-comment-content {
-    margin-top: 5px;
     width: 100%;
-    margin-left: 20px;
 }
 
 .webmention-avatar-container {
     width: 15%;
     display: flex;
-    align-items: flex-end;
-    text-align: center;
 }
 
-.webmention-photo {
-    margin-bottom: 5px;
-    margin-top: 5px;
+.webmention-name {
+    font-weight: bold;
 }
 
 .webmention-avatar-inner {
@@ -292,10 +294,10 @@ img {
 }
 
 .webmention-date {
-    font-size: calc(0.7em + 0.2vw);
-    font-weight: bold;
+    font-size: calc(0.7em + 0.1vw);
 }
 
 .webmention-content {
-    font-size: calc(0.7em + 0.3vw);
+    font-size: calc(0.7em + 0.2vw);
+    margin-top: 3px;
 }
