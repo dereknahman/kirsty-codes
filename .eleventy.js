@@ -22,8 +22,8 @@ module.exports = (config) => {
         return isNaN(value);
     });
 
-    config.addWatchTarget("./src/blog/");
-    config.addWatchTarget("./src/sass/");
+    config.addWatchTarget("./src/blog/*");
+    config.addWatchTarget("./src/css/*");
 
     config.addCollection("blog", (collection) => {
         return [...collection.getFilteredByGlob("./src/blog/*.md")].reverse();

@@ -5,6 +5,7 @@
     "main": ".eleventy.js",
     "scripts": {
         "start": "netlify dev",
+        "dev": "npx @11ty/eleventy --serve",
         "build": "NODE_ENV=production npx @11ty/eleventy",
         "build:local": "NODE_ENV=production netlify build",
         "clean": "rm -rf dist/ _cache/",

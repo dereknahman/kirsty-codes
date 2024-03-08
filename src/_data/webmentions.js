@@ -1,9 +1,8 @@
 const fs = require("fs");
 const fetch = (...args) =>
     import("node-fetch").then(({ default: fetch }) => fetch(...args));
-
 const unionBy = require("lodash/unionBy");
-const domain = require("./site.json").domain;
+const metadata = require("./site.json");
 
 // Load .env variables with dotenv
 require("dotenv").config();
@@ -14,6 +13,8 @@ const API = "https://webmention.io/api";
 const TOKEN = process.env.WEBMENTION_IO_TOKEN;
 
 async function fetchWebmentions(since, perPage = 10000) {
+    const domain = "kirsty.website";
+
     // If we dont have a domain name or token, abort
     if (!domain || !TOKEN) {
         console.warn(
@@ -38,8 +39,11 @@ async function fetchWebmentions(since, perPage = 10000) {
 }
 
 // Merge fresh webmentions with cached entries, unique per id
-function mergeWebmentions(a, b) {
-    return unionBy(a.children, b.children, "wm-id");
+// Don't cache webmentions that are for homepage
+function mergeWebmentions(a, b, types) {
+    return unionBy(a, b, "wm-id")
+        .filter((item) => item["wm-target"] !== metadata.url)
+        .filter((item) => types.includes(item["wm-property"]));
 }
 
 // save combined webmentions in cache file
@@ -68,6 +72,8 @@ function readFromCache() {
     return {
         lastFetched: null,
         children: [],
+        likes: [],
+        reposts: [],
     };
 }
 
@@ -75,6 +81,7 @@ module.exports = async function () {
     console.log(">>> Reading webmentions from cache...");
 
     const cache = readFromCache();
+    const { lastFetched } = cache;
 
     if (cache.children.length) {
         console.log(
@@ -85,17 +92,28 @@ module.exports = async function () {
     // Only fetch new mentions in production
     if (process.env.NODE_ENV === "production") {
         console.log(">>> Checking for new webmentions...");
+
         const feed = await fetchWebmentions(cache.lastFetched);
+
         if (feed) {
             const webmentions = {
                 lastFetched: new Date().toISOString(),
-                children: mergeWebmentions(cache, feed),
+                children: mergeWebmentions(cache.children, feed.children, [
+                    "mention-of",
+                    "in-reply-to",
+                ]),
+                likes: mergeWebmentions(cache.likes || [], feed.children, [
+                    "like-of",
+                ]),
+                reposts: mergeWebmentions(cache.reposts || [], feed.children, [
+                    "repost-of",
+                ]),
             };
 
             writeToCache(webmentions);
             return webmentions;
         }
     }
-
+    console.log(`${cache.children.length} webmentions loaded from cache`);
     return cache;
 };
