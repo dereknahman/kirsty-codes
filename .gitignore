@@ -1,15 +1,3 @@
-# Misc
-*.log
-npm-debug.*
-*.scssc
-*.swp
-.DS_Store
-Thumbs.db
-.sass-cache
-.env
-.cache
-_cache/
-
 # Node modules and output
 **/node_modules/**
 node_modules
@@ -17,3 +5,12 @@ dist
 
 # Local Netlify folder
 .netlify
+
+
+_dist/
+npm-debug.*
+.DS_Store
+node_modules/*
+.env
+_cache
+
