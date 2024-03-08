@@ -2,6 +2,16 @@
     "name": "kirsty dot website, my home on the web",
     "url": "https://kirsty.website/",
     "domain": "kirsty.website",
-    "authorName": "Kirsty Simmonds",
-    "authorEmail": "kirstysimmonds@icloud.com"
+    "description": "kirsty dot website, my home on the web",
+    "feed": {
+        "subtitle": "kirsty dot website, my home on the web",
+        "filename": "rss.html",
+        "path": "/src/rss.html",
+        "url": "https://kirsty.website/feed/feed.xml",
+        "id": "https://kirsty.website/"
+    },
+    "author": {
+        "name": "Kirsty Simmonds",
+        "email": "kirstysimmonds@icloud.com"
+    }
 }
