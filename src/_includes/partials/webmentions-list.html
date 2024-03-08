@@ -6,7 +6,10 @@ webmentions.likes.length + webmentions.reposts.length %}
 <div class="webmentions flow" id="webmentions">
     <h2>Webmentions</h2>
     {% if (totalNumMentions | isNan) or (totalNumMentions === 0) %}
-    <p class="webmentions-count">No mentions yet... it's so quiet...</p>
+    <p class="webmentions-count">
+        kirsty is working on webmentions now so sorry if everything is banjaxed
+        below here
+    </p>
     {% endif %} {% if totalNumReactions > 0 %}
     <div class="webmentions-likes-reposts">
         {% set likes = webmentions.likes | webmentionsForUrl(absoluteUrl,
@@ -19,7 +22,7 @@ webmentions.likes.length + webmentions.reposts.length %}
         {% include "partials/webmention-avatars.html" %} {% endif %}
     </div>
     {% endif %} {% if mentions.length > 0 %}
-    <h3>Comments</h3>
+    <!-- <h3>Comments</h3> -->
     <ol class="webmentions-list flow">
         {% for webmention in mentions | reverse %}
         <li>
