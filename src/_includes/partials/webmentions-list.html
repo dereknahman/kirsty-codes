@@ -12,11 +12,10 @@ webmentions.likes.length + webmentions.reposts.length %}
         {% set likes = webmentions.likes | webmentionsForUrl(absoluteUrl,
         aliases) %} {% if likes.length > 0 %}
         <h3>Likes</h3>
-        {% include "partials/webmention-avatars.html" %} {% endif %} {% set
-        likes = webmentions.reposts | webmentionsForUrl(absoluteUrl, aliases) %}
-        {% if likes.length > 0 %}
+        {% endif %} {% set likes = webmentions.reposts |
+        webmentionsForUrl(absoluteUrl, aliases) %} {% if likes.length > 0 %}
         <h3>Reposts</h3>
-        {% include "partials/webmention-avatars.html" %} {% endif %}
+        {% endif %}
     </div>
     {% endif %} {% if mentions.length > 0 %}
     <h3>Comments</h3>
