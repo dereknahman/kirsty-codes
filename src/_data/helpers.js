@@ -21,5 +21,3 @@ module.exports = {
         return response;
     },
 };
-
-// TODO: idk if we need this but keep in for now
