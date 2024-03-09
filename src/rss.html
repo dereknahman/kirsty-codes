@@ -5,7 +5,7 @@ permalink: "feed.xml"
 ---
 
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="{{ metadata.url }}">
     <title>{{ title }}</title>
     <subtitle>{{ summary }}</subtitle>
     <link href="{{ site.url }}{{ permalink }}" rel="self" />
@@ -13,8 +13,8 @@ permalink: "feed.xml"
     <updated>{{ collections.blog | rssLastUpdatedDate }}</updated>
     <id>{{ site.url }}</id>
     <author>
-        <name>{{ site.authorName }}</name>
-        <email>{{ site.authorEmail }}</email>
+        <name>{{ site.author.authorName }}</name>
+        <email>{{ site.author.authorEmail }}</email>
     </author>
     {% for post in collections.blog %} {% set absolutePostUrl %}{{ site.url }}{{
     post.url | url }}{% endset %}
