@@ -274,7 +274,7 @@ img {
 }
 
 .webmention-avatar-container {
-    width: 15%;
+    min-width: 12%;
     display: flex;
 }
 
