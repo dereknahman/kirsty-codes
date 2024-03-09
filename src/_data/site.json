@@ -5,9 +5,9 @@
     "description": "kirsty dot website, my home on the web",
     "feed": {
         "subtitle": "kirsty dot website, my home on the web",
-        "filename": "rss.html",
-        "path": "/src/rss.html",
-        "url": "https://kirsty.website/feed/feed.xml",
+        "filename": "feed.xml",
+        "path": "../src/feed.xml",
+        "url": "https://kirsty.website/feed.xml",
         "id": "https://kirsty.website/"
     },
     "author": {
