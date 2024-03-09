@@ -7,7 +7,7 @@
         "start": "netlify dev",
         "build": "NODE_ENV=production npx @11ty/eleventy",
         "build:local": "NODE_ENV=production netlify build",
-        "clean": "rm -rf dist/ _cache/",
+        "dev": "npx @11ty/eleventy --serve",
         "format": "prettier --write '**/*.{js,css,html,md}'"
     },
     "keywords": [],
