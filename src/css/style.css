@@ -88,10 +88,9 @@ h2,
 a {
     font-weight: 500;
     text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
 .nav-links-wrapper {
@@ -256,12 +255,24 @@ img {
 .webmentions-list {
     display: flex;
     flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
     gap: 20px;
 }
 
 .webmention-photo {
     width: 3rem;
     border-radius: 10%;
+    list-style: none;
+}
+
+.webmention-photo:hover {
+    box-shadow: 0 0 0 3px var(--post-tag-color);
+}
+
+.webmention-avatars > a:hover {
+    text-decoration: none !important;
 }
 
 .webmention-comment-container {
@@ -286,12 +297,6 @@ img {
     display: flex;
     flex-direction: column;
     margin-right: 10px;
-}
-
-.webmentions-list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 .webmention-date {

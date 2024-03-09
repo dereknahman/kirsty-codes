@@ -3,10 +3,10 @@ set mentions = webmentions.children | webmentionsForUrl(absoluteUrl, aliases) %}
 {% set totalNumMentions = webmentions.children.length + webmentions.likes.length
 + webmentions.reposts.length %} {% set totalNumReactions =
 webmentions.likes.length + webmentions.reposts.length %}
-<div>
+<div class="webmentions">
     <h2>Webmentions</h2>
     {% if (totalNumMentions | isNan) or (totalNumMentions === 0) %}
-    <p>...tumbleweed...</p>
+    <p class="webmentions-count">waiting for attention...</p>
     {% endif %} {% if totalNumReactions > 0 %}
     <div>
         {% set likes = webmentions.likes | webmentionsForUrl(absoluteUrl,
@@ -25,20 +25,22 @@ webmentions.likes.length + webmentions.reposts.length %}
         <li>
             <article class="webmention-comment-container">
                 <div class="webmention-avatar-container">
-                    <a
-                        href="{{ webmention.url }}"
-                        target="_blank"
-                        rel="noopener"
-                        class="webmention-avatar-inner"
-                    >
-                        {% if webmention.author.photo %}
-                        <img
-                            class="webmention-photo"
-                            src="{{ webmention.author.photo }}"
-                            alt="author avatar"
-                        />
-                        {% else %} {% endif %}
-                    </a>
+                    <div>
+                        <a
+                            href="{{ webmention.url }}"
+                            target="_blank"
+                            rel="noopener"
+                            class="webmention-avatar-inner"
+                        >
+                            {% if webmention.author.photo %}
+                            <img
+                                class="webmention-photo"
+                                src="{{ webmention.author.photo }}"
+                                alt="author avatar"
+                            />
+                            {% else %} {% endif %}
+                        </a>
+                    </div>
                     {% if webmention.published %}
                 </div>
                 <div class="webmention-comment-content">
