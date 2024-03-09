@@ -6,7 +6,7 @@ I've used 11ty, with Nunjucks as templating engine. Other than that, it's just H
 
 Things I'll be looking at in the near future:
 
--   User toggled dark/light mode
+-   ~~User toggled dark/light mode~~
 -   I hate the blog tags. I need to fix those. Also the blog post list view generally.
 -   Keyboard navigation and skip links
 -   Image optimisation and best practices
