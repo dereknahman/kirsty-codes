@@ -17,6 +17,8 @@ I'm going to have a go at weeknotes for a bit since I find it impossible to reme
 
 -   We finished Better Call Saul. Amazing. Now we've started [King of the Hill](https://archive.org/details/king-of-the-hill13seasons/King+of+the+Hill+S01E01+Pilot.mp4). Also amazing. Predictably I like the one where Bobby meets his Jewish step-grandfather the best. Also enjoyed that Hank has a tiny can of WD40 to unstick the cap of his larger can of WD40.
 
+-   I finished my wedding website! Would anyone be interested in me putting together a repo and docs for it? It's a simple page and a form with Google Sheets in the backend, password-protected via Netlify (for a fee). Very, very low-fi but responsive and does the job. If even one person is interested I'll throw together a starter repo in the next week or so.
+
 ### Listening
 
 -   I woke up with [I'm an Amendment to Be](https://www.youtube.com/watch?v=pSANTRnEBgg&t=1s) in my head on Wesnesday. It followed me for the rest of the week. A lot of it went over my head as a kid but _bangs on about how few things ever change in politics_.
