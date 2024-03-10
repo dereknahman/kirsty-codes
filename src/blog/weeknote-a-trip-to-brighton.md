@@ -21,7 +21,7 @@ I'm going to have a go at weeknotes for a bit since I find it impossible to reme
 
 ### Listening
 
--   I woke up with [I'm an Amendment to Be](https://www.youtube.com/watch?v=pSANTRnEBgg&t=1s) in my head on Wesnesday. It followed me for the rest of the week. A lot of it went over my head as a kid but _bangs on about how few things ever change in politics_.
+-   I woke up with [I'm an Amendment to Be](https://www.youtube.com/watch?v=pSANTRnEBgg&t=1s) in my head on Wednesday. It followed me for the rest of the week. A lot of it went over my head as a kid but _bangs on about how few things ever change in politics_.
 
 ### Reading
 
