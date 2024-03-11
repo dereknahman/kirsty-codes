@@ -27,8 +27,12 @@
     color: black;
 }
 
-p > a {
+a {
     color: var(--link-color);
+}
+
+.post-list-link {
+    color: var(--text-color);
 }
 
 * {
