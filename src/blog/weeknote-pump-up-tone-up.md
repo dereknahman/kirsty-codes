@@ -5,7 +5,7 @@ layout: "layouts/post.html"
 tags: ["Weeknote"]
 ---
 
-Content warning: This weeknote is partly about exercise, with some mentions of recipes I've been enjoying. If that isn't for you, neither is this post. Check back another time when I'm hopefully more exciting ✌🏻.
+Content warning: This weeknote is partly about exercise, with some mentions of food I've been enjoying. If that isn't for you, neither is this post. Check back another time when I'm hopefully more exciting ✌🏻.
 
 -   [I've started weightlifting regularly](https://www.youtube.com/watch?v=5MfzHsBDh-4). I went three times in a row this week and my body feels pretty sore. I'm really happy at [F45](https://f45training.com/) and even happier I can go on the basis of quite a good deal provided by my employer via Gympass. On days I don't go there I'm going to start building up my astanga practice again because I've really missed it and want to maintain my flexibility. I've noticed I'm pretty good at the F45 exercises that rely on good balance, and I credit the past two years of regular yoga practice with that. Those exercises make up for the box jumps. I am not talented at box jumps. I can't quite get the image of my shins snapping off the side of the box out of my head when I do them?
 
