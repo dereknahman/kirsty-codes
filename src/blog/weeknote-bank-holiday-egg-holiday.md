@@ -11,7 +11,7 @@ tags: ["Weeknote"]
 
 -   J and I went to [Little Georgia](https://littlegeorgia.co.uk/) for the first time. That was BRILLIANT since I finally got to eat [khachapuri](https://en.wikipedia.org/wiki/Khachapuri), though there was a minor heartbreak moment when the waiter let us know my light and zingy main course wasn't available, but I could have the chicken instead, and I said OK, and then it came out sitting on top of a lake of cream and butter and garlic. Hnnnggghhhhfffffffff.
 
--   I went to D's house to hang out and eat Trini mutton curry. We scattered Lenu's ashes under a tree. I met up with Kimchi for the first time in years and she is somehow still the smallest adult cat on Earth. It felt really good to catch up with some old friends.
+-   I went to D's house to hang out and eat Trini mutton curry. We scattered Lenu's ashes under a tree. I met up with Kimchi for the first time in years and she is somehow still the smallest adult cat on Earth. It felt really good to catch up with some old friends. During this visit I was introduced to [Tajin](https://www.mexgrocer.co.uk/brands/tajin/tajin-chilli-and-lime-seasoning-142g) which I will be thinking about for every waking moment until I can score my own bottle.
 
 -   I am test knitting [Annabel Williams](https://annabelwilliams.co.uk/)' latest design, the Meadow Scarf. I chose the wrong yarn for the job so it's a very rigid scarf rather than [the lovely, drapey one in her photos](https://www.instagram.com/p/C4xvdQFolGN/?img_index=1). I'll unravel it when the test is done and make myself a big green hat and snood, and I'll make a Meadow Scarf in the actual correct yarn weight this winter.
 
