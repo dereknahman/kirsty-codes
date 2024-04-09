@@ -33,6 +33,7 @@ a {
 
 .post-list-link {
     color: var(--text-color);
+    margin-left: 5px;
 }
 
 * {
@@ -75,18 +76,14 @@ h2,
     font-style: normal;
 }
 
-.post-list-wrapper > ol li {
-    counter-increment: styleOrderedListItem;
-}
-
-.post-list-wrapper > ol li:before {
-    content: counter(styleOrderedListItem) ". ";
+.special-bullet {
+    list-style-type: "->";
+    padding-inline-start: 1ch;
 }
 
 .post-list-wrapper > ol {
     list-style: none;
     padding: 0;
-    counter-reset: styleOrderedListItem;
 }
 
 a {
