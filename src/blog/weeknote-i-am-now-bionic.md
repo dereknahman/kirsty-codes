@@ -7,7 +7,7 @@ tags: ["Weeknote"]
 
 This past week went by in a big rush.
 
--   I'm getting used to nexplanon, aka the contraceptive implant. I got it to deal with heavy (12+ day) periods. It has brought with it an almost immediate, lengthy period. Lots of reaping what I've sewn going on here and I don't like it.
+-   I'm getting used to nexplanon, aka the contraceptive implant. I got it to deal with heavy (12+ day) periods. It has brought with it an almost immediate, lengthy period. Lots of reaping what I've sown going on here and I don't like it.
 
 -   I went on a friend date having been set up by I all the way from Denmark. It was lovely. I also bumped into D on the way out of the pub who needed help with "drinking excess pints" which was a difficult offer to walk away from but, due to the above, I'm also pretty knackered at the mo.
 
