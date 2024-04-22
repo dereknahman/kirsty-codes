@@ -16,3 +16,4 @@ Things I'll be looking at in the near future:
 -   Separate Weeknotes from general blog posts. Set up separate RSS feeds too.
 -   Tidy up webmentions
 -   Send webmentions
+-   Give users ability to open bug reports
