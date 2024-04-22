@@ -22,9 +22,11 @@ module.exports = (config) => {
         return isNaN(value);
     });
 
+    // watch targets
     config.addWatchTarget("./src/blog/*");
     config.addWatchTarget("./src/css/*");
 
+    // collections
     config.addCollection("posts", (collection) => {
         return [
             ...collection.getFilteredByGlob("./src/blog/posts/*.md"),

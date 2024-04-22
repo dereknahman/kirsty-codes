@@ -212,11 +212,6 @@ footer {
     justify-content: end;
 }
 
-.post-list-wrapper li::marker {
-    color: black;
-    list-style-type: disc;
-}
-
 .link-page-wrapper li::marker {
     list-style-type: disc;
     color: var(--bullet-point-color);
