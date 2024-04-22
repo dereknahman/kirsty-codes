@@ -25,8 +25,16 @@ module.exports = (config) => {
     config.addWatchTarget("./src/blog/*");
     config.addWatchTarget("./src/css/*");
 
-    config.addCollection("blog", (collection) => {
-        return [...collection.getFilteredByGlob("./src/blog/*.md")].reverse();
+    config.addCollection("posts", (collection) => {
+        return [
+            ...collection.getFilteredByGlob("./src/blog/posts/*.md"),
+        ].reverse();
+    });
+
+    config.addCollection("weeknotes", (collection) => {
+        return [
+            ...collection.getFilteredByGlob("./src/blog/weeknotes/*.md"),
+        ].reverse();
     });
 
     config.setUseGitIgnore(false);
