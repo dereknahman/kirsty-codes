@@ -6,7 +6,7 @@
     --text-color: black;
     --border-color: black;
     --main-color: white;
-    --bullet-point-color: #ff8b71;
+    --bullet-point-color: black;
 }
 
 [data-theme="dark"] {
@@ -17,7 +17,7 @@
     --border-color: black;
     --main-color: #1b1a29;
     --text-color: #62ceb1;
-    --bullet-point-color: #d26157;
+    --bullet-point-color: #62ceb1;
     --hover-highlight-text: #d26157;
     --link-color: #d26157;
     --nav-link-text-color: black;
