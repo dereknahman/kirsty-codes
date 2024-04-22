@@ -13,6 +13,6 @@ Things I'll be looking at in the near future:
 -   Performance
 -   General tidy up of the code because it's a wee bit of a Cronenbergian mess in places
 -   Build a search bar
--   Separate Weeknotes from general blog posts
+-   Separate Weeknotes from general blog posts. Set up separate RSS feeds too.
 -   Tidy up webmentions
 -   Send webmentions
