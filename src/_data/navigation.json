@@ -6,7 +6,11 @@
         },
         {
             "text": "Blog",
-            "url": "/blog"
+            "url": "/posts"
+        },
+        {
+            "text": "Weeknotes",
+            "url": "/weeknotes"
         },
         {
             "text": "Links",
