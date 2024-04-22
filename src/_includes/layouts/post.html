@@ -15,7 +15,7 @@ pageHeaderSummary %} {% if tags %}
 {% endif %} {% endset %} {% block content %}
 <section>
     <div class="post-header">{% include "partials/page-header.html" %}</div>
-    <div>{{ content | safe }}</div>
+    <div class="content">{{ content | safe }}</div>
 </section>
 
 {% include "partials/webmentions-list.html" %} {% endblock %}

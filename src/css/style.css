@@ -203,6 +203,10 @@ footer {
     }
 }
 
+.content {
+    padding: 0px 10px;
+}
+
 .cat-icon {
     transform: rotateY(180deg);
 }
