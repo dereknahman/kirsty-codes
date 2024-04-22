@@ -1,7 +1,7 @@
 ---
-title: "Extras"
-layout: "layouts/extras.html"
-permalink: "extras/index.html"
+title: "About"
+layout: "layouts/about.html"
+permalink: "about/index.html"
 ---
 
 ### About this site
