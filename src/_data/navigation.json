@@ -5,12 +5,12 @@
             "url": "/"
         },
         {
-            "text": "Blog",
-            "url": "/posts"
-        },
-        {
             "text": "Weeknotes",
             "url": "/weeknotes"
+        },
+        {
+            "text": "Blog",
+            "url": "/posts"
         },
         {
             "text": "Links",
