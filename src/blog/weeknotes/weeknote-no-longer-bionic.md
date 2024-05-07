@@ -16,3 +16,5 @@ tags: ["Weeknote"]
 -   My knitting plans for this year are: finish self-drafted design for J, finish my wedding cardigan, put sleeves on my Esther Sweater, start the lovely shawl I just mentioned, knit sister-in-law-to-be something currently unspecified, finish the little pig toy I started last year, start baby blanket, finish the all-over cable cardigan I've been working on for a year on-and-off.
 
 -   We went to the [Enzo Mari exhibition](https://designmuseum.org/exhibitions/enzo-mari) at the weekend. Hugely inspiring and I recommend you go so you can look at the wonderful stories and puzzles and furniture.
+
+-   My pal I has finished riso printing our wedding invitations and they look so incredible. I feel quite tearful thinking about it. Friends sharing their talents with you 😭💚
