@@ -1,6 +1,6 @@
 ---
 title: "kirsty dot website"
-summary: "A feed of my latest blog posts"
+summary: "A feed of my weeknotes"
 permalink: "feed.xml"
 ---
 <?xml version="1.0" encoding="utf-8"?>
@@ -9,21 +9,21 @@ permalink: "feed.xml"
     <subtitle>{{ summary }}</subtitle>
     <link href="{{ site.url }}{{ permalink }}" rel="self" />
     <link href="{{ site.url }}" />
-    <updated>{{ collections.posts | rssLastUpdatedDate }}</updated>
+    <updated>{{ collections.weeknotes | rssLastUpdatedDate }}</updated>
     <id>{{ site.url }}</id>
     <author>
         <name>{{ site.author.authorName }}</name>
         <email>{{ site.author.authorEmail }}</email>
     </author>
-    {% for post in collections.posts %} {% set absolutePostUrl %}{{ site.url }}{{
-    post.url | url }}{% endset %}
+    {% for weeknote in collections.weeknotes %} {% set absolutePostUrl %}{{ site.url }}{{
+    weeknote.url | url }}{% endset %}
     <entry>
-        <title>{{ post.data.title }}</title>
+        <title>{{ weeknote.data.title }}</title>
         <link href="{{ absolutePostUrl }}" />
-        <updated>{{ post.date | rssDate }}</updated>
+        <updated>{{ weeknote.date | rssDate }}</updated>
         <id>{{ absolutePostUrl }}</id>
         <content type="html"
-            ><![CDATA[ {{ post.templateContent | safe }} ]]></content
+            ><![CDATA[ {{ weeknote.templateContent | safe }} ]]></content
         >
     </entry>
     {% endfor %}
