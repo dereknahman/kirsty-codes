@@ -1,8 +1,6 @@
 const path = require("path");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
-const sanitizeHTML = require("sanitize-html");
 const dateFilter = require("./src/filters/date-filter");
-const webmentionsFilter = require("./src/filters/webmentions");
 const Image = require("@11ty/eleventy-img");
 
 module.exports = (config) => {
@@ -17,7 +15,6 @@ module.exports = (config) => {
 
     // filters
     config.addFilter("dateFilter", dateFilter);
-    config.addFilter("webmentionsForUrl", webmentionsFilter);
     config.addFilter("isNan", (value) => {
         return isNaN(value);
     });
