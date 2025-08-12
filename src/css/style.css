@@ -43,7 +43,7 @@ a {
 body {
     font-weight: 300;
     font-family: "Inter", sans-serif;
-    font-size: calc(0.9em + 0.1vw);
+    font-size: calc(0.9em + 0.3vw);
     line-height: 1.4;
     max-width: 45em;
     margin-left: auto;
